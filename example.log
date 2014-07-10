@@ -1,0 +1,597 @@
+DEBUG qtp1457062995-19 - /team org.eclipse.jetty.servlet.ServletHandler - (POST /team)@1627576348 org.eclipse.jetty.server.Request@6102d81c
+DEBUG qtp1457062995-19 - /team org.eclipse.jetty.server.Server - RESPONSE /team  500 handled=true
+DEBUG qtp1457062995-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1e4adb34{l(/127.0.0.1:62816)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@447d4275,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=15},r=2}
+DEBUG qtp1457062995-19 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-18 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@42ff87dc{l(/127.0.0.1:62817)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@16309ee1,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=1}
+DEBUG qtp1457062995-17 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@3798f5e7{l(/127.0.0.1:62815)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1b382d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=2}
+DEBUG qtp1457062995-17 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-14 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@1e4adb34{l(/127.0.0.1:62816)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@447d4275,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=2}
+DEBUG qtp1457062995-14 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-14 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@1e4adb34{l(/127.0.0.1:62816)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@447d4275,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2}
+DEBUG qtp1457062995-14 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@1e4adb34{l(/127.0.0.1:62816)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@447d4275,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2}
+DEBUG qtp1457062995-18 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-18 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@42ff87dc{l(/127.0.0.1:62817)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@16309ee1,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1}
+DEBUG qtp1457062995-17 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@3798f5e7{l(/127.0.0.1:62815)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1b382d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2}
+DEBUG qtp1457062995-18 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@42ff87dc{l(/127.0.0.1:62817)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@16309ee1,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1}
+DEBUG qtp1457062995-17 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@3798f5e7{l(/127.0.0.1:62815)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@1b382d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@1e4adb34{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@447d4275,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@447d4275,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@42ff87dc{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@16309ee1,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@16309ee1,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@3798f5e7{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@1b382d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@1b382d35,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@4f93b604{l(/127.0.0.1:62933)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-14 org.eclipse.jetty.http.HttpParser - filled 406/406
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@65f9c5c8{l(/127.0.0.1:62935)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@712801c5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing GET request for [/team]
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
+DEBUG qtp1457062995-13 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-17 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-18 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@2827f394{l(/127.0.0.1:62936)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@56e88e24,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
+DEBUG qtp1457062995-19 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-14 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] using cached since C:\Workspaces\Personal\screen-web\target\classes\views\create-team-screen.ftl didn't change.
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
+DEBUG qtp1457062995-14 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
+DEBUG qtp1457062995-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
+DEBUG qtp1457062995-14 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-15 org.eclipse.jetty.http.HttpParser - filled 393/393
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing GET request for [/assets/js/headroom.min.js]
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/headroom.min.js
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/headroom.min.js]
+DEBUG qtp1457062995-17 org.eclipse.jetty.http.HttpParser - filled 400/400
+WARN qtp1457062995-15 - /assets/js/headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-18 org.eclipse.jetty.http.HttpParser - filled 389/389
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1457062995-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/headroom.min.js  404 handled=true
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing GET request for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
+DEBUG qtp1457062995-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp1457062995-15 org.eclipse.jetty.http.HttpParser - filled 0/0
+WARN qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-18 - /assets/js/template.js org.eclipse.jetty.server.Server - REQUEST /assets/js/template.js on AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1457062995-18 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-17 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
+DEBUG qtp1457062995-18 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-18 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/template.js -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-17 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@4f93b604{l(/127.0.0.1:62933)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
+DEBUG qtp1457062995-18 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-17 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-18 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing GET request for [/assets/js/template.js]
+DEBUG qtp1457062995-18 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/template.js
+DEBUG qtp1457062995-18 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/template.js]
+WARN qtp1457062995-18 - /assets/js/template.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/template.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-18 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1457062995-18 - /assets/js/template.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/template.js  404 handled=true
+DEBUG qtp1457062995-18 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
+DEBUG qtp1457062995-18 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@2b1be57f{l(/127.0.0.1:62937)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@34780af5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-19 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-14 org.eclipse.jetty.http.HttpParser - filled 494/494
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=2,l=6,c=17},r=2
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing POST request for [/team]
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.saveTeam(com.giantrocket.team.data.model.Team)]
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Reading [class com.giantrocket.team.data.model.Team] as "application/json" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@26420e44]
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
+DEBUG qtp1457062995-14 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] using cached since C:\Workspaces\Personal\screen-web\target\classes\views\create-team-screen.ftl didn't change.
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'org.springframework.validation.BindingResult.team' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'create-team-screen'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'team' of type [com.giantrocket.team.data.model.Team] to request in view with name 'create-team-screen'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'message' of type [java.lang.String] to request in view with name 'create-team-screen'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
+DEBUG qtp1457062995-14 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+ERROR qtp1457062995-14 - /team freemarker.runtime - 
+
+Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+The problematic instruction:
+----------
+==> list roles as role [on line 39, column 1401 in create-team-screen.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:124)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:100)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.Environment.process(Environment.java:188)
+	at freemarker.template.Template.process(Template.java:237)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:266)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1225)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:364)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - Error rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+
+Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+The problematic instruction:
+----------
+==> list roles as role [on line 39, column 1401 in create-team-screen.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:124)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:100)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.Environment.process(Environment.java:188)
+	at freemarker.template.Template.process(Template.java:237)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:266)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1225)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:364)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - Could not complete request
+
+Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+The problematic instruction:
+----------
+==> list roles as role [on line 39, column 1401 in create-team-screen.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:124)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:100)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.Environment.process(Environment.java:188)
+	at freemarker.template.Template.process(Template.java:237)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:266)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1225)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:364)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+WARN qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is freemarker.core.InvalidReferenceException: Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:364)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: freemarker.core.InvalidReferenceException: Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:124)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:100)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.Environment.process(Environment.java:188)
+	at freemarker.template.Template.process(Template.java:237)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:266)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1225)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	... 24 more
+WARN qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - /team
+
+Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+The problematic instruction:
+----------
+==> list roles as role [on line 39, column 1401 in create-team-screen.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:124)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:100)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:208)
+	at freemarker.core.Environment.process(Environment.java:188)
+	at freemarker.template.Template.process(Template.java:237)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:266)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1225)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:364)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - (POST /team)@1385729494 org.eclipse.jetty.server.Request@52988dd6
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - Response already committed for handling freemarker.core.InvalidReferenceException: Expression roles is undefined on line 39, column 1408 in create-team-screen.ftl.
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
+DEBUG qtp1457062995-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=17},r=2}
+DEBUG qtp1457062995-14 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-15 org.eclipse.jetty.http.HttpParser - filled 406/406
+DEBUG qtp1457062995-15 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
+DEBUG qtp1457062995-15 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-15 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-15 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-15 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing GET request for [/team]
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
+DEBUG qtp1457062995-15 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
+DEBUG qtp1457062995-15 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
+DEBUG qtp1457062995-15 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
+DEBUG qtp1457062995-15 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
+DEBUG qtp1457062995-15 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+DEBUG qtp1457062995-15 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1457062995-15 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
+DEBUG qtp1457062995-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
+DEBUG qtp1457062995-15 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-18 org.eclipse.jetty.http.HttpParser - filled 393/393
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=4
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing GET request for [/assets/js/headroom.min.js]
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/headroom.min.js
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/headroom.min.js]
+DEBUG qtp1457062995-13 org.eclipse.jetty.http.HttpParser - filled 389/389
+DEBUG qtp1457062995-19 org.eclipse.jetty.http.HttpParser - filled 400/400
+WARN qtp1457062995-18 - /assets/js/headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1457062995-13 - /assets/js/template.js org.eclipse.jetty.server.Server - REQUEST /assets/js/template.js on AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
+DEBUG qtp1457062995-18 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/headroom.min.js  404 handled=true
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-13 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-18 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=4}
+DEBUG qtp1457062995-13 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-18 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing GET request for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp1457062995-13 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/template.js -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
+DEBUG qtp1457062995-13 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-13 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing GET request for [/assets/js/template.js]
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp1457062995-13 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/template.js
+WARN qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-13 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/template.js]
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1457062995-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
+WARN qtp1457062995-13 - /assets/js/template.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/template.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+DEBUG qtp1457062995-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@4f93b604{l(/127.0.0.1:62933)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
+DEBUG qtp1457062995-19 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-13 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1457062995-13 - /assets/js/template.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/template.js  404 handled=true
+DEBUG qtp1457062995-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
+DEBUG qtp1457062995-13 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-14 org.eclipse.jetty.http.HttpParser - filled 495/495
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=2,l=6,c=18},r=4
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-121398849
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849' processing POST request for [/team]
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.saveTeam(com.giantrocket.team.data.model.Team)]
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Reading [class com.giantrocket.team.data.model.Team] as "application/json" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@26420e44]
+DEBUG qtp1457062995-18 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@2827f394{l(/127.0.0.1:62936)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@56e88e24,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-18 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-19 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@2b1be57f{l(/127.0.0.1:62937)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@34780af5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-19 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-15 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@65f9c5c8{l(/127.0.0.1:62935)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@712801c5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1457062995-15 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-15 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@65f9c5c8{l(/127.0.0.1:62935)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@712801c5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-15 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@65f9c5c8{l(/127.0.0.1:62935)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@712801c5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-18 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@2827f394{l(/127.0.0.1:62936)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@56e88e24,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@65f9c5c8{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@712801c5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-19 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@2b1be57f{l(/127.0.0.1:62937)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@34780af5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@712801c5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+DEBUG qtp1457062995-19 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@2b1be57f{l(/127.0.0.1:62937)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@34780af5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-18 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@2827f394{l(/127.0.0.1:62936)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@56e88e24,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@2b1be57f{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@34780af5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@34780af5,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@2827f394{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@56e88e24,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@56e88e24,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
+DEBUG qtp1457062995-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'success-team-screen'
+DEBUG qtp1457062995-14 - /team freemarker.cache - success-team-screen.ftl[es,Cp1252,parsed] no source found.
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - No FreeMarker view found for URL: success-team-screen.ftl
+DEBUG qtp1457062995-14 - /team org.springframework.web.servlet.DispatcherServlet - Could not complete request
+javax.servlet.ServletException: Could not resolve view with name 'success-team-screen' in servlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:364)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+WARN qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - 
+javax.servlet.ServletException: Could not resolve view with name 'success-team-screen' in servlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:364)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+WARN qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - /team
+javax.servlet.ServletException: Could not resolve view with name 'success-team-screen' in servlet with name 'org.springframework.web.servlet.DispatcherServlet-121398849'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:457)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:364)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.servlet.ServletHandler - (POST /team)@863607326 org.eclipse.jetty.server.Request@33799a1e
+DEBUG qtp1457062995-14 - /team org.eclipse.jetty.server.Server - RESPONSE /team  500 handled=true
+DEBUG qtp1457062995-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=18},r=4}
+DEBUG qtp1457062995-14 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1457062995-14 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200389ms AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=2 SCEP@4f93b604{l(/127.0.0.1:62933)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=2}
+DEBUG qtp1457062995-19 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200394ms AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4 SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
+DEBUG qtp1457062995-14 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@4f93b604{l(/127.0.0.1:62933)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=2}
+DEBUG qtp1457062995-19 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
+DEBUG qtp1457062995-13 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
+DEBUG qtp1457062995-17 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@4f93b604{l(/127.0.0.1:62933)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=2}
+DEBUG qtp1457062995-13 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@39ea2de1{l(/127.0.0.1:62934)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
+DEBUG qtp1457062995-17 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@4f93b604{l(/127.0.0.1:62933)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=2}
+DEBUG qtp1457062995-13 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-13 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@39ea2de1{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=4}
+DEBUG qtp1457062995-17 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@39ea2de1{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=4}
+DEBUG qtp1457062995-17 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@4f93b604{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@3d6a2c7b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=4
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@4f93b604{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@6a92e96c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=2
+DEBUG qtp1457062995-17 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200016ms AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4 SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
+DEBUG qtp1457062995-17 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
+DEBUG qtp1457062995-14 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
+DEBUG qtp1457062995-14 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@328d5485{l(/127.0.0.1:62932)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
+DEBUG qtp1457062995-14 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@328d5485{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=4}
+DEBUG qtp1457062995-14 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@328d5485{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=4}
+DEBUG qtp1457062995-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@5ca801b0,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=4
