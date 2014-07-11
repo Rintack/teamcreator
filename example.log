@@ -1,82 +1,447 @@
-DEBUG qtp965223859-13 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-13 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-434311562
-DEBUG qtp965223859-13 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562' processing GET request for [/team]
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
-DEBUG qtp965223859-13 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
-DEBUG qtp965223859-13 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
-DEBUG qtp965223859-13 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
-DEBUG qtp965223859-13 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] using cached since C:\Workspaces\Personal\team-creator\target\classes\views\create-team-screen.ftl didn't change.
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562'
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
-DEBUG qtp965223859-13 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
-DEBUG qtp965223859-13 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp965223859-13 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
-DEBUG qtp965223859-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@699c9f16{l(/10.254.211.97:57547)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@29909385,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
-DEBUG qtp965223859-13 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp965223859-15 org.eclipse.jetty.http.HttpParser - filled 375/375
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@29909385,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-434311562
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562' processing GET request for [/assets/js/headroom.min.js]
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/headroom.min.js
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/headroom.min.js]
-WARN qtp965223859-15 - /assets/js/headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562'
-DEBUG qtp965223859-11 org.eclipse.jetty.http.HttpParser - filled 382/382
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@1b78efd8,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-434311562
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562' processing GET request for [/assets/js/jQuery.headroom.min.js]
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
-WARN qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562'
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp965223859-9 org.eclipse.jetty.http.HttpParser - filled 371/371
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp965223859-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/headroom.min.js  404 handled=true
-DEBUG qtp965223859-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@699c9f16{l(/10.254.211.97:57547)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@29909385,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
-DEBUG qtp965223859-15 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp965223859-11 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
-DEBUG qtp965223859-11 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1abbbd0e{l(/10.254.211.97:57548)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1b78efd8,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
-DEBUG qtp965223859-11 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp965223859-9 - /assets/js/template.js org.eclipse.jetty.server.Server - REQUEST /assets/js/template.js on AsyncHttpConnection@37cd3dd7,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
-DEBUG qtp965223859-9 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-9 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-9 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/template.js -> org.springframework.web.servlet.DispatcherServlet-434311562
-DEBUG qtp965223859-9 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp965223859-9 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562' processing GET request for [/assets/js/template.js]
-DEBUG qtp965223859-9 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/template.js
-DEBUG qtp965223859-9 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/template.js]
-WARN qtp965223859-9 - /assets/js/template.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/template.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562'
-DEBUG qtp965223859-9 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp965223859-9 - /assets/js/template.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/template.js  404 handled=true
-DEBUG qtp965223859-9 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@3d6721bd{l(/10.254.211.97:57549)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@37cd3dd7,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
-DEBUG qtp965223859-9 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp965223859-16 org.eclipse.jetty.http.HttpParser - filled 320/320
-DEBUG qtp965223859-16 - /favicon.ico org.eclipse.jetty.server.Server - REQUEST /favicon.ico on AsyncHttpConnection@37cd3dd7,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
-DEBUG qtp965223859-16 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - scope null||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-16 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - context=||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp965223859-16 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - servlet ||/favicon.ico -> org.springframework.web.servlet.DispatcherServlet-434311562
-DEBUG qtp965223859-16 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp965223859-16 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562' processing GET request for [/favicon.ico]
-DEBUG qtp965223859-16 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /favicon.ico
-DEBUG qtp965223859-16 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/favicon.ico]
-WARN qtp965223859-16 - /favicon.ico org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-434311562'
-DEBUG qtp965223859-16 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp965223859-16 - /favicon.ico org.eclipse.jetty.server.Server - RESPONSE /favicon.ico  404 handled=true
-DEBUG qtp965223859-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@3d6721bd{l(/10.254.211.97:57549)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@37cd3dd7,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
-DEBUG qtp965223859-16 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp965223859-9 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@1d4fcd9a{l(/10.254.211.97:57550)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@6243487e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
-DEBUG qtp965223859-9 org.eclipse.jetty.http.HttpParser - filled -1/0
-DEBUG qtp965223859-9 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@1d4fcd9a{l(/10.254.211.97:57550)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@6243487e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
-DEBUG qtp965223859-9 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@1d4fcd9a{l(/10.254.211.97:57550)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@6243487e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
-DEBUG qtp965223859-10 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@1d4fcd9a{l(null)<->r(/10.254.211.97:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@6243487e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
-DEBUG qtp965223859-10 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@6243487e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+DEBUG main org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+DEBUG main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 13 bean definitions from location pattern [classpath:com/beans/controller.xml]
+DEBUG main org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader - Imported 13 bean definitions from URL location [classpath:com/beans/controller.xml]
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [com/beans/frontend.xml]
+DEBUG main org.springframework.beans.factory.xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG main org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+DEBUG main org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-3.0.xsd
+DEBUG main org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+DEBUG main org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+DEBUG main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 8 bean definitions from location pattern [classpath:com/beans/frontend.xml]
+DEBUG main org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader - Imported 8 bean definitions from URL location [classpath:com/beans/frontend.xml]
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [com/beans/service.xml]
+DEBUG main org.springframework.beans.factory.xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG main org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+DEBUG main org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+DEBUG main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 1 bean definitions from location pattern [classpath:com/beans/service.xml]
+DEBUG main org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader - Imported 1 bean definitions from URL location [classpath:com/beans/service.xml]
+DEBUG main org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 22 bean definitions from location pattern [classpath:com/application.xml]
+DEBUG main org.springframework.web.context.support.XmlWebApplicationContext - Bean factory for WebApplicationContext for namespace 'org.springframework.web.servlet.DispatcherServlet-240990493-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@38ca6cea: defining beans [com.giantrocket.team.web.controller.TeamController#0,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,freemarkerConfig,viewResolver,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,teamService]; root of factory hierarchy
+DEBUG main org.springframework.web.context.support.XmlWebApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4e300429]
+DEBUG main org.springframework.web.context.support.XmlWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@778abc7b]
+DEBUG main org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@39757337]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38ca6cea: defining beans [com.giantrocket.team.web.controller.TeamController#0,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,freemarkerConfig,viewResolver,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,teamService]; root of factory hierarchy
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'com.giantrocket.team.web.controller.TeamController#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'teamService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'teamService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'teamService' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'teamService'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'mvcContentNegotiationManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'mvcContentNegotiationManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)'
+DEBUG main org.springframework.beans.BeanUtils - No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking for request mappings in application context: WebApplicationContext for namespace 'org.springframework.web.servlet.DispatcherServlet-240990493-servlet': startup date [Fri Jul 11 13:06:59 ART 2014]; root of context hierarchy
+INFO main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/team],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()
+INFO main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/team],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.saveTeam(com.giantrocket.team.data.model.Team)
+INFO main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/team/{teamName}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.deleteTeam(java.lang.String)
+INFO main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/team/{teamName}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getTeam(java.lang.String)
+INFO main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/team/{teamName}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.updateTeam(java.lang.String,com.giantrocket.team.data.model.Team)
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#3'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#3'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#4'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#4'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#5'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#5'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#6'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#6'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#7'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#7'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#8'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#8'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for controller advice: WebApplicationContext for namespace 'org.springframework.web.servlet.DispatcherServlet-240990493-servlet': startup date [Fri Jul 11 13:06:59 ART 2014]; root of context hierarchy
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'mvcUriComponentsContributor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#9'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#10'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#10'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#11'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#11'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#12'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#12'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#13'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#13'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#14'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#14'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#15'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#15'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#16'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#16'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#17'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#17'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name '(inner bean)#9'
+DEBUG main org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for controller advice: WebApplicationContext for namespace 'org.springframework.web.servlet.DispatcherServlet-240990493-servlet': startup date [Fri Jul 11 13:06:59 ART 2014]; root of context hierarchy
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#9'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'mvcUriComponentsContributor'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#18'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#18'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#19'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#19'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#20'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#20'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#21'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#21'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#22'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#22'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#23'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#23'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#24'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#24'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG main org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: WebApplicationContext for namespace 'org.springframework.web.servlet.DispatcherServlet-240990493-servlet': startup date [Fri Jul 11 13:06:59 ART 2014]; root of context hierarchy
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Looking for URL mappings in application context: WebApplicationContext for namespace 'org.springframework.web.servlet.DispatcherServlet-240990493-servlet': startup date [Fri Jul 11 13:06:59 ART 2014]; root of context hierarchy
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'com.giantrocket.team.web.controller.TeamController#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'freemarkerConfig': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'viewResolver': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'teamService': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'environment': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'systemProperties': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'systemEnvironment': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'servletContext': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'servletConfig': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'contextParameters': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'contextAttributes': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'messageSource': no URL paths identified
+DEBUG main org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'freemarkerConfig'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'freemarkerConfig'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'freemarkerConfig' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'freemarkerConfig'
+DEBUG main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - Template loader path [class path resource [views]] resolved to file path [C:\Workspaces\Personal\team-creator\target\classes\views]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'freemarkerConfig'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'viewResolver'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'viewResolver'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+INFO main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+INFO main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2' to allow for resolving potential circular references
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+INFO main org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'teamService'
+DEBUG main org.springframework.web.context.support.XmlWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@45d18084]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG main org.springframework.web.servlet.DispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+DEBUG main org.springframework.web.servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@20dbd794]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+DEBUG main org.springframework.web.servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@5a81b83c]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+DEBUG main org.springframework.web.servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@21743ff4]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewResolver'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+DEBUG main org.springframework.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@2ee634bf]
+DEBUG main org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+DEBUG main org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+DEBUG main org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+DEBUG main org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+DEBUG main org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+DEBUG main org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+DEBUG main org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial. Returning null.
+DEBUG main org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+DEBUG main org.springframework.core.env.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+DEBUG main org.springframework.core.env.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+DEBUG main org.springframework.web.servlet.DispatcherServlet - Published WebApplicationContext of servlet 'org.springframework.web.servlet.DispatcherServlet-240990493' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.org.springframework.web.servlet.DispatcherServlet-240990493]
+INFO main org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-240990493': initialization completed in 1433 ms
+DEBUG main org.springframework.web.servlet.DispatcherServlet - Servlet 'org.springframework.web.servlet.DispatcherServlet-240990493' configured successfully
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.springframework.web.servlet.DispatcherServlet-240990493
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED o.e.j.s.ServletContextHandler{/,null}
+DEBUG main org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.handler.ContextHandlerCollection@70e35d5
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.handler.ContextHandlerCollection@70e35d5
+DEBUG main org.eclipse.jetty.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@62c3e9e9
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - starting qtp1101730224{8<=0<=0/254,-1}
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED qtp1101730224{8<=5<=8/254,0}
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - starting SelectChannelConnector@0.0.0.0:9290
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - starting null/null
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED PooledBuffers [0/1024@12288,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@7ce9927a
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@7ce9927a
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - Starting Thread[qtp1101730224-12 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@7168c1e1
+INFO main org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:9290
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED SelectChannelConnector@0.0.0.0:9290
+DEBUG main org.eclipse.jetty.util.component.AbstractLifeCycle - STARTED org.eclipse.jetty.server.Server@62c3e9e9
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@40a16605{l(/10.254.211.97:59604)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-16 org.eclipse.jetty.http.HttpParser - filled 427/427
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@8f5cbda{l(/10.254.211.97:59605)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@411a59ce,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-17 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@1b4865b1{l(/10.254.211.97:59606)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@24df39bc,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-18 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@70ca8f43{l(/10.254.211.97:59607)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@283b18f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@521bfefb{l(/10.254.211.97:59608)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@2c013ada,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-13 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-13 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-240990493
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493' processing GET request for [/team]
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
+DEBUG qtp1101730224-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
+DEBUG qtp1101730224-17 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@8f5cbda{l(/10.254.211.97:59605)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@411a59ce,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-17 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1101730224-17 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@8f5cbda{l(/10.254.211.97:59605)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@411a59ce,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-17 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@8f5cbda{l(/10.254.211.97:59605)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@411a59ce,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-18 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@1b4865b1{l(/10.254.211.97:59606)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@24df39bc,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-18 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1101730224-15 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@521bfefb{l(/10.254.211.97:59608)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2c013ada,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-15 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1101730224-15 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@521bfefb{l(/10.254.211.97:59608)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2c013ada,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@8f5cbda{l(null)<->r(/10.254.211.97:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@411a59ce,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@411a59ce,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+DEBUG qtp1101730224-13 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@70ca8f43{l(/10.254.211.97:59607)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@283b18f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-13 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1101730224-13 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@70ca8f43{l(/10.254.211.97:59607)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@283b18f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-13 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@70ca8f43{l(/10.254.211.97:59607)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@283b18f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-18 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@1b4865b1{l(/10.254.211.97:59606)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@24df39bc,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-18 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@1b4865b1{l(/10.254.211.97:59606)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@24df39bc,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@70ca8f43{l(null)<->r(/10.254.211.97:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@283b18f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-15 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@521bfefb{l(/10.254.211.97:59608)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2c013ada,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@283b18f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@1b4865b1{l(null)<->r(/10.254.211.97:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@24df39bc,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@24df39bc,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@521bfefb{l(null)<->r(/10.254.211.97:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2c013ada,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@2c013ada,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+DEBUG qtp1101730224-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
+DEBUG qtp1101730224-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
+DEBUG qtp1101730224-16 - /team freemarker.cache - Could not find template in cache, creating new one; id=[create-team-screen.ftl[es,Cp1252,parsed] ]
+DEBUG qtp1101730224-16 - /team freemarker.cache - Compiling FreeMarker template create-team-screen.ftl[es,Cp1252,parsed]  from C:\Workspaces\Personal\team-creator\target\classes\views\create-team-screen.ftl
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493'
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
+DEBUG qtp1101730224-16 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
+DEBUG qtp1101730224-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@40a16605{l(/10.254.211.97:59604)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
+DEBUG qtp1101730224-16 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-15 org.eclipse.jetty.http.HttpParser - filled 418/418
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-240990493
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493' processing GET request for [/assets/js/headroom.min.js]
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/headroom.min.js
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/headroom.min.js]
+WARN qtp1101730224-15 - /assets/js/headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493'
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@2cd9799d{l(/10.254.211.97:59621)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1101730224-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/headroom.min.js  404 handled=true
+DEBUG qtp1101730224-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@40a16605{l(/10.254.211.97:59604)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
+DEBUG qtp1101730224-15 org.eclipse.jetty.http.HttpParser - filled 414/414
+DEBUG qtp1101730224-15 - /assets/js/template.js org.eclipse.jetty.server.Server - REQUEST /assets/js/template.js on AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
+DEBUG qtp1101730224-15 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-15 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-15 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/template.js -> org.springframework.web.servlet.DispatcherServlet-240990493
+DEBUG qtp1101730224-15 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1101730224-15 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493' processing GET request for [/assets/js/template.js]
+DEBUG qtp1101730224-15 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/template.js
+DEBUG qtp1101730224-15 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/template.js]
+WARN qtp1101730224-15 - /assets/js/template.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/template.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493'
+DEBUG qtp1101730224-15 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1101730224-15 - /assets/js/template.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/template.js  404 handled=true
+DEBUG qtp1101730224-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@40a16605{l(/10.254.211.97:59604)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
+DEBUG qtp1101730224-15 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-19 org.eclipse.jetty.http.HttpParser - filled 425/425
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-240990493
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493' processing GET request for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
+WARN qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493'
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1101730224-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
+DEBUG qtp1101730224-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@2cd9799d{l(/10.254.211.97:59621)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0r}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
+DEBUG qtp1101730224-19 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-16 org.eclipse.jetty.http.HttpParser - filled 320/320
+DEBUG qtp1101730224-16 - /favicon.ico org.eclipse.jetty.server.Server - REQUEST /favicon.ico on AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
+DEBUG qtp1101730224-16 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - scope null||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-16 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - context=||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-16 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - servlet ||/favicon.ico -> org.springframework.web.servlet.DispatcherServlet-240990493
+DEBUG qtp1101730224-16 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1101730224-16 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493' processing GET request for [/favicon.ico]
+DEBUG qtp1101730224-16 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /favicon.ico
+DEBUG qtp1101730224-16 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/favicon.ico]
+WARN qtp1101730224-16 - /favicon.ico org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493'
+DEBUG qtp1101730224-16 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1101730224-16 - /favicon.ico org.eclipse.jetty.server.Server - RESPONSE /favicon.ico  404 handled=true
+DEBUG qtp1101730224-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@2cd9799d{l(/10.254.211.97:59621)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
+DEBUG qtp1101730224-16 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-16 org.eclipse.jetty.http.HttpParser - filled 614/614
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=2,l=6,c=124},r=3
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-240990493
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493' processing POST request for [/team]
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.saveTeam(com.giantrocket.team.data.model.Team)]
+DEBUG qtp1101730224-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Reading [class com.giantrocket.team.data.model.Team] as "application/json" using [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter@4d97507c]
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.saveTeam(com.giantrocket.team.data.model.Team)]: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON: Unrecognized field "logoUrl" (Class com.giantrocket.team.data.model.Team), not marked as ignorable
+ at [Source: org.eclipse.jetty.server.HttpInput@549b6976; line: 1, column: 84] (through reference chain: com.giantrocket.team.data.model.Team["logoUrl"]); nested exception is org.codehaus.jackson.map.exc.UnrecognizedPropertyException: Unrecognized field "logoUrl" (Class com.giantrocket.team.data.model.Team), not marked as ignorable
+ at [Source: org.eclipse.jetty.server.HttpInput@549b6976; line: 1, column: 84] (through reference chain: com.giantrocket.team.data.model.Team["logoUrl"])
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.saveTeam(com.giantrocket.team.data.model.Team)]: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON: Unrecognized field "logoUrl" (Class com.giantrocket.team.data.model.Team), not marked as ignorable
+ at [Source: org.eclipse.jetty.server.HttpInput@549b6976; line: 1, column: 84] (through reference chain: com.giantrocket.team.data.model.Team["logoUrl"]); nested exception is org.codehaus.jackson.map.exc.UnrecognizedPropertyException: Unrecognized field "logoUrl" (Class com.giantrocket.team.data.model.Team), not marked as ignorable
+ at [Source: org.eclipse.jetty.server.HttpInput@549b6976; line: 1, column: 84] (through reference chain: com.giantrocket.team.data.model.Team["logoUrl"])
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolving exception from handler [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.saveTeam(com.giantrocket.team.data.model.Team)]: org.springframework.http.converter.HttpMessageNotReadableException: Could not read JSON: Unrecognized field "logoUrl" (Class com.giantrocket.team.data.model.Team), not marked as ignorable
+ at [Source: org.eclipse.jetty.server.HttpInput@549b6976; line: 1, column: 84] (through reference chain: com.giantrocket.team.data.model.Team["logoUrl"]); nested exception is org.codehaus.jackson.map.exc.UnrecognizedPropertyException: Unrecognized field "logoUrl" (Class com.giantrocket.team.data.model.Team), not marked as ignorable
+ at [Source: org.eclipse.jetty.server.HttpInput@549b6976; line: 1, column: 84] (through reference chain: com.giantrocket.team.data.model.Team["logoUrl"])
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-240990493': assuming HandlerAdapter completed request handling
+DEBUG qtp1101730224-16 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp1101730224-16 - /team org.eclipse.jetty.server.Server - RESPONSE /team  400 handled=true
+DEBUG qtp1101730224-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@2cd9799d{l(/10.254.211.97:59621)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=124},r=3}
+DEBUG qtp1101730224-16 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp1101730224-15 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200657ms AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3 SCEP@40a16605{l(/10.254.211.97:59604)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
+DEBUG qtp1101730224-15 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@40a16605{l(/10.254.211.97:59604)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
+DEBUG qtp1101730224-17 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@40a16605{l(/10.254.211.97:59604)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
+DEBUG qtp1101730224-17 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@40a16605{l(/10.254.211.97:59604)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
+DEBUG qtp1101730224-17 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1101730224-17 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@40a16605{l(null)<->r(/10.254.211.97:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@40a16605{l(null)<->r(/10.254.211.97:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@2430f369,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3
+DEBUG qtp1101730224-18 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200582ms AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3 SCEP@2cd9799d{l(/10.254.211.97:59621)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
+DEBUG qtp1101730224-18 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@2cd9799d{l(/10.254.211.97:59621)<->r(/10.254.211.97:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
+DEBUG qtp1101730224-19 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@2cd9799d{l(/10.254.211.97:59621)<->r(/10.254.211.97:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
+DEBUG qtp1101730224-19 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@2cd9799d{l(/10.254.211.97:59621)<->r(/10.254.211.97:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
+DEBUG qtp1101730224-19 org.eclipse.jetty.http.HttpParser - filled -1/0
+DEBUG qtp1101730224-19 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@2cd9799d{l(null)<->r(/10.254.211.97:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@2cd9799d{l(null)<->r(/10.254.211.97:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3}
+DEBUG qtp1101730224-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@79bf496b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3

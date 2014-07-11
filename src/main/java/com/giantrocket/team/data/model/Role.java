@@ -6,10 +6,10 @@ import java.util.Map;
 
 public enum Role {
 
-	CARRY("carry"),
-	SUPPORT("support"),
-	OFFLANE("offlaner"),
-	MID("mid");
+	CARRY("Carry"),
+	SUPPORT("Support"),
+	OFFLANE("Offlaner"),
+	MID("Mid");
 	
     private final String description;
     private static final Map<String, Role> LOOKUP = new HashMap<String, Role>();

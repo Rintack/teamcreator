@@ -19,11 +19,33 @@
 			
 			<ul id="playersList">
 			<div id="accordion">
-				<h3>Player 1:</h3>
+				<h3 id="firstTab">Player 1:</h3>
 				<div>
-					<li id='player1'>
+					<li class='player'>
 						<label for='name'>Name:</label>
-						<input type='text' name='name' value=''><br>
+						<input type='text' id ='name' name='name' value=''><br>
+						<label for='lastName'>Last Name:</label>
+						<input type='text' name='lastName' value=''><br>
+						<label for='nick'>Nick:</label>
+						<input type='text' name='nick' value=''><br>
+						<label for='steam'>Steam:</label>
+						<input type='text' name='steam' value=''><br>
+						<label for='dotabuff'>Dotabuff:</label>
+						<input type='text' name='dotabuff' value=''><br>
+						<label for='pictureUrl'>Picture URL:</label>
+						<input type='text' name='pictureUrl' value=''><br>
+						<select name="Role">
+				        <#list roles as enum>
+				        <option value="${enum}">{$enum.description}</option>
+				        </#list>
+				    </select>
+				  </li>
+			   </div>
+			   <h3>Player 2:</h3>
+				<div>
+					<li class='player'>
+						<label for='name'>Name:</label>
+						<input type='text' id ='name' name='name' value=''><br>
 						<label for='lastName'>Last Name:</label>
 						<input type='text' name='lastName' value=''><br>
 						<label for='nick'>Nick:</label>
@@ -56,13 +78,33 @@
   	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 	<script>
 		$(document).ready(function() {
+			var icons = {
+		      header: "ui-icon-circle-arrow-e",
+		      activeHeader: "ui-icon-circle-arrow-s"
+		    };
+		    $( "#accordion" ).accordion({
+			  collapsible: true,
+		      icons: icons,
+		      active: false
+		    });
 			$("#teamForm").submit(function(e){
 				e.preventDefault(); 
 				var team = new Object();
 				team.name = $("#teamName").val();
 				team.tag = $("#tag").val();
 				team.mail = $("#mail").val();
-				var jsonpost = JSON.stringify(team);
+				team.facebook = $("#facebook").val();
+				team.twitter = $("#twitter").val();
+				team.web = $("#web").val();
+				team.logoUrl = $("#logoUrl").val();
+				var players = [];
+				$(".player").each(function() {
+				  var player = new Object();
+				  player.name = $(this).find("#name").val();
+				  players.push(player);
+				});
+				team.players = players;
+				
 				$.ajax({
 			        url: "/team",
 			        type: 'POST',
@@ -75,21 +117,13 @@
 			        contentType: 'application/json',
 			        mimeType: 'application/json',
 			        success: function (data) {
-			        
+			        	 alert("SUCCESS");
 			        },
 			        error:function(data,status,er) {
 			            alert("error");
 			        }
 			    });
 			});
-			var icons = {
-		      header: "ui-icon-circle-arrow-e",
-		      activeHeader: "ui-icon-circle-arrow-s"
-		    };
-		    $( "#accordion" ).accordion({
-			  collapsible: true,
-		      icons: icons
-		    });
 		});
 	</script> 
 	</body>
