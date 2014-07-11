@@ -9,6 +9,7 @@ import org.apache.commons.io.FileUtils;
 
 import com.esotericsoftware.yamlbeans.YamlReader;
 import com.esotericsoftware.yamlbeans.YamlWriter;
+import com.giantrocket.team.data.model.Player;
 import com.giantrocket.team.data.model.Team;
 
 public class TeamService {
@@ -27,6 +28,7 @@ public class TeamService {
 		YamlWriter writer = new YamlWriter(new FileWriter(filePath));
 		writer.write(team);
 		writer.getConfig().setClassTag("Team", Team.class);
+		writer.getConfig().setClassTag("Player", Player.class);
 		writer.close();
 	}
 

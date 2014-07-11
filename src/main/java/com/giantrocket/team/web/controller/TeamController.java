@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.giantrocket.team.data.model.Role;
+import com.giantrocket.team.data.model.Country;
+import com.giantrocket.team.data.model.State;
 import com.giantrocket.team.data.model.Team;
 import com.giantrocket.team.data.service.TeamService;
 
@@ -23,6 +25,8 @@ public class TeamController {
 	public ModelAndView getEmptyTeamForm() {
 		ModelAndView view = new ModelAndView("create-team-screen");
 		view.addObject("roles", Role.values());
+		view.addObject("countries", Country.values());
+		view.addObject("states", State.values());
 		return view;
 	}
 	
