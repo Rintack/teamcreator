@@ -18,7 +18,9 @@
 			<input type="text" id="web" name="web" value=""><br>
 			
 			<ul id="playersList">
-				<label for='player1'>Player 1:</label>
+			<div id="accordion">
+				<h3>Player 1:</h3>
+				<div>
 					<li id='player1'>
 						<label for='name'>Name:</label>
 						<input type='text' name='name' value=''><br>
@@ -37,9 +39,11 @@
 				        <option value="${enum}">{$enum.description}</option>
 				        </#list>
 				    </select>
-				</li>
+				  </li>
+			   </div>
+			</div>
 			</ul>
-			<input type="submit" value="CREATE MY FUCKING TEAM">
+			<input type="submit" value="Create">
 		</form>
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -47,12 +51,17 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+  	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 	<script>
 		$(document).ready(function() {
 			$("#teamForm").submit(function(e){
 				e.preventDefault(); 
 				var team = new Object();
 				team.name = $("#teamName").val();
+				team.tag = $("#tag").val();
+				team.mail = $("#mail").val();
 				var jsonpost = JSON.stringify(team);
 				$.ajax({
 			        url: "/team",
@@ -73,6 +82,14 @@
 			        }
 			    });
 			});
+			var icons = {
+		      header: "ui-icon-circle-arrow-e",
+		      activeHeader: "ui-icon-circle-arrow-s"
+		    };
+		    $( "#accordion" ).accordion({
+			  collapsible: true,
+		      icons: icons
+		    });
 		});
 	</script> 
 	</body>
