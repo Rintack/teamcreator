@@ -1,73 +1,304 @@
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=7
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/team]
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
-DEBUG qtp432598870-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
-DEBUG qtp432598870-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
-DEBUG qtp432598870-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team freemarker.cache - Updating source, info for cause: lastModifiedNotChanged=false, cache lastModified=1405361186163 != file lastModified=1405361217411
-DEBUG qtp432598870-16 - /team freemarker.cache - Compiling FreeMarker template create-team-screen.ftl[es,Cp1252,parsed]  from C:\Workspaces\Personal\team-creator\target\classes\views\create-team-screen.ftl
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'countries' of type [[Lcom.giantrocket.team.data.model.Country;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'states' of type [[Lcom.giantrocket.team.data.model.State;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
-DEBUG qtp432598870-16 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
-DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=7}
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/main.css] are [/css/**]
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/main.css] are {}
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/main.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/main.css] is: -1
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [main.css] against base location: class path resource [css/]
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/main.css]
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/main.css]
+DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@3918d722{l(/127.0.0.1:55328)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@dd41677,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=8}
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=29
 DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 421/421
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.eclipse.jetty.server.Server - REQUEST /css/bootstrap.min.css on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=8
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/bootstrap.min.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/bootstrap.min.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/bootstrap.min.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 423/423
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.server.Server - REQUEST /css/bootstrap-theme.css on AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/bootstrap-theme.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/bootstrap-theme.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/bootstrap-theme.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/bootstrap-theme.css]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap-theme.css
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap-theme.css]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap-theme.css] are [/css/**]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap-theme.css] are {}
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/bootstrap-theme.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap-theme.css] is: -1
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [bootstrap-theme.css] against base location: class path resource [css/]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/bootstrap-theme.css]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/bootstrap-theme.css]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.server.Server - RESPONSE /css/bootstrap-theme.css  200 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@15e1df6e{l(/127.0.0.1:54912)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 406/406
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.server.Server - REQUEST /assets/js/template.js on AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/template.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/template.js]
-DEBUG qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/template.js
-DEBUG qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/template.js]
-WARN qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/template.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/template.js  404 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@15e1df6e{l(/127.0.0.1:54912)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@4aa0b07b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=13
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 - /css/main.css org.eclipse.jetty.server.Server - RESPONSE /css/main.css  200 handled=true
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1a8fa0f0{l(/127.0.0.1:55290)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=18}
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/headroom.min.js]
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/headroom.min.js
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/headroom.min.js]
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
+WARN qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+WARN qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-13 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/headroom.min.js  404 handled=true
+DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=29}
+DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@5cb08ba7{l(/127.0.0.1:55327)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4aa0b07b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=13}
 DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 420/420
+DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.Server - REQUEST /images/Portada.jpg on AsyncHttpConnection@4aa0b07b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=14
+DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.handler.ContextHandler - scope null||/images/Portada.jpg @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.handler.ContextHandler - context=||/images/Portada.jpg @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.servlet.ServletHandler - servlet ||/images/Portada.jpg -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/images/Portada.jpg]
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /images/Portada.jpg
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/images/Portada.jpg]
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/images/Portada.jpg] are [/images/**]
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 425/425
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.woff on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=30
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/images/Portada.jpg] are {}
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/images/Portada.jpg] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@5e159d10] and 1 interceptor
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.woff -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/images/Portada.jpg] is: -1
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.woff]
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [Portada.jpg] against base location: class path resource [images/]
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.woff
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.resource.ResourceHttpRequestHandler - No matching resource found - returning 404
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.woff]
+WARN qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.woff] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.woff  404 handled=true
+DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.Server - RESPONSE /images/Portada.jpg  404 handled=true
+DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=30}
+DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@5cb08ba7{l(/127.0.0.1:55327)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4aa0b07b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=14}
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 424/424
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.ttf on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=31
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.ttf -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.ttf]
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.ttf
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.ttf]
+WARN qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.ttf] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.ttf  404 handled=true
+DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=31}
+DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 424/424
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.svg on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=32
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.svg @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.svg @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.svg -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.svg]
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.svg
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.svg]
+WARN qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.svg] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.svg  404 handled=true
+DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=32}
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-19 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
+DEBUG qtp432598870-19 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'success-team-screen'
+DEBUG qtp432598870-19 - /team freemarker.cache - success-team-screen.ftl[es,Cp1252,parsed] using cached since C:\Workspaces\Personal\team-creator\target\classes\views\success-team-screen.ftl didn't change.
+DEBUG qtp432598870-19 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'success-team-screen'; URL [success-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-19 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'org.springframework.validation.BindingResult.team' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'success-team-screen'
+DEBUG qtp432598870-19 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'message' of type [java.lang.String] to request in view with name 'success-team-screen'
+DEBUG qtp432598870-19 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'success-team-screen'
+DEBUG qtp432598870-19 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [success-team-screen.ftl] in FreeMarkerView 'success-team-screen'
+DEBUG qtp432598870-19 - /team freemarker.cache - success-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+DEBUG qtp432598870-19 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-19 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
+DEBUG qtp432598870-19 org.eclipse.jetty.io.nio - EOF
+org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.http.HttpGenerator.flushBuffer(HttpGenerator.java:914)
+	at org.eclipse.jetty.http.HttpGenerator.complete(HttpGenerator.java:798)
+	at org.eclipse.jetty.server.AbstractHttpConnection.completeResponse(AbstractHttpConnection.java:655)
+	at org.eclipse.jetty.server.Response.complete(Response.java:1242)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:582)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jetty.io.nio.ChannelEndPoint.flush(ChannelEndPoint.java:293)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.flush(SelectChannelEndPoint.java:362)
+	at org.eclipse.jetty.http.HttpGenerator.flushBuffer(HttpGenerator.java:850)
+	... 14 more
+DEBUG qtp432598870-19 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@a62812d{l(/127.0.0.1:55330)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@490eb6ae,g=HttpGenerator{s=3,h=-1,b=5,c=-1},p=HttpParser{s=2,l=6,c=93},r=29}
+DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@a62812d{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@490eb6ae,g=HttpGenerator{s=3,h=-1,b=5,c=-1},p=HttpParser{s=2,l=6,c=93},r=29}
+DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@490eb6ae,g=HttpGenerator{s=3,h=-1,b=5,c=-1},p=HttpParser{s=2,l=6,c=93},r=29
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 423/423
+DEBUG qtp432598870-14 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=33
+DEBUG qtp432598870-14 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-14 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/team]
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
+DEBUG qtp432598870-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
+DEBUG qtp432598870-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
+DEBUG qtp432598870-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
+DEBUG qtp432598870-14 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] using cached since C:\Workspaces\Personal\team-creator\target\classes\views\create-team-screen.ftl didn't change.
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'countries' of type [[Lcom.giantrocket.team.data.model.Country;] to request in view with name 'create-team-screen'
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'states' of type [[Lcom.giantrocket.team.data.model.State;] to request in view with name 'create-team-screen'
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
+DEBUG qtp432598870-14 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+DEBUG qtp432598870-14 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-14 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
+DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=33}
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 316/316
+DEBUG qtp432598870-15 - /favicon.ico org.eclipse.jetty.server.Server - REQUEST /favicon.ico on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=34
+DEBUG qtp432598870-15 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - scope null||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - context=||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - servlet ||/favicon.ico -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-15 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-15 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/favicon.ico]
+DEBUG qtp432598870-15 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /favicon.ico
+DEBUG qtp432598870-15 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/favicon.ico]
+WARN qtp432598870-15 - /favicon.ico org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-15 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-15 - /favicon.ico org.eclipse.jetty.server.Server - RESPONSE /favicon.ico  404 handled=true
+DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=34}
+DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 421/421
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.eclipse.jetty.server.Server - REQUEST /css/bootstrap.min.css on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=35
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/bootstrap.min.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/bootstrap.min.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/bootstrap.min.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/bootstrap.min.css]
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap.min.css
+DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@36ed5ba6{l(/127.0.0.1:55401)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@191c0b76,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap.min.css]
+DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap.min.css] are [/css/**]
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap.min.css] are {}
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/bootstrap.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap.min.css] is: -1
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [bootstrap.min.css] against base location: class path resource [css/]
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/bootstrap.min.css]
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/bootstrap.min.css]
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-13 - /css/bootstrap.min.css org.eclipse.jetty.server.Server - RESPONSE /css/bootstrap.min.css  200 handled=true
+DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=35}
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 423/423
+DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled 424/424
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 412/412
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.eclipse.jetty.server.Server - REQUEST /css/bootstrap-theme.css on AsyncHttpConnection@4aa0b07b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=15
+DEBUG qtp432598870-14 - /css/main.css org.eclipse.jetty.server.Server - REQUEST /css/main.css on AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=19
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/bootstrap-theme.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 - /css/main.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/main.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/bootstrap-theme.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.eclipse.jetty.server.Server - REQUEST /css/font-awesome.min.css on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=36
+DEBUG qtp432598870-14 - /css/main.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/main.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/bootstrap-theme.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/font-awesome.min.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 - /css/main.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/main.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-14 - /css/main.css org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/main.css]
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/main.css
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/main.css]
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/main.css] are [/css/**]
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/bootstrap-theme.css]
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/main.css] are {}
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/main.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/main.css] is: -1
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [main.css] against base location: class path resource [css/]
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap-theme.css
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap-theme.css]
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/font-awesome.min.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/main.css]
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/main.css]
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap-theme.css] are [/css/**]
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap-theme.css] are {}
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/bootstrap-theme.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap-theme.css] is: -1
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [bootstrap-theme.css] against base location: class path resource [css/]
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/bootstrap-theme.css]
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/bootstrap-theme.css]
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-14 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-14 - /css/main.css org.eclipse.jetty.server.Server - RESPONSE /css/main.css  200 handled=true
+DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1a8fa0f0{l(/127.0.0.1:55290)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=19}
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-16 - /css/bootstrap-theme.css org.eclipse.jetty.server.Server - RESPONSE /css/bootstrap-theme.css  200 handled=true
+DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@5cb08ba7{l(/127.0.0.1:55327)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4aa0b07b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=15}
+DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/font-awesome.min.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/font-awesome.min.css]
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/font-awesome.min.css
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/font-awesome.min.css]
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/font-awesome.min.css] are [/css/**]
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/font-awesome.min.css] are {}
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/font-awesome.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/font-awesome.min.css] is: -1
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [font-awesome.min.css] against base location: class path resource [css/]
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/font-awesome.min.css]
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/font-awesome.min.css]
+DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 417/417
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@dd41677,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=9
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
+WARN qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 406/406
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-13 - /assets/js/template.js org.eclipse.jetty.server.Server - REQUEST /assets/js/template.js on AsyncHttpConnection@191c0b76,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
+DEBUG qtp432598870-13 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/template.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-19 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
+DEBUG qtp432598870-13 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@3918d722{l(/127.0.0.1:55328)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@dd41677,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=9}
+DEBUG qtp432598870-13 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/template.js]
+DEBUG qtp432598870-13 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/template.js
+DEBUG qtp432598870-18 - /css/font-awesome.min.css org.eclipse.jetty.server.Server - RESPONSE /css/font-awesome.min.css  200 handled=true
+DEBUG qtp432598870-18 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=36}
+DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled 0/0
 DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 410/410
-DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
+DEBUG qtp432598870-13 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/template.js]
+DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 0/0
+WARN qtp432598870-13 - /assets/js/template.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/template.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@1453ecec,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=15
 DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
 DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-13 - /assets/js/template.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/template.js  404 handled=true
+DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@36ed5ba6{l(/127.0.0.1:55401)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@191c0b76,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=1}
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 0/0
 DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
 DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/headroom.min.js]
 DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/headroom.min.js
@@ -75,81 +306,10 @@ DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servl
 WARN qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
 DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
 DEBUG qtp432598870-15 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/headroom.min.js  404 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1b219665{l(/127.0.0.1:54913)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
+DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7162e79c{l(/127.0.0.1:55329)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1453ecec,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=15}
 DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 424/424
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 417/417
-DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled 412/412
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/bootstrap.min.css]
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/jQuery.headroom.min.js]
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
-WARN qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.eclipse.jetty.server.Server - REQUEST /css/font-awesome.min.css on AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
-DEBUG qtp432598870-18 - /css/main.css org.eclipse.jetty.server.Server - REQUEST /css/main.css on AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/font-awesome.min.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap.min.css
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/font-awesome.min.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/font-awesome.min.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/font-awesome.min.css]
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/font-awesome.min.css
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/font-awesome.min.css]
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/font-awesome.min.css] are [/css/**]
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/font-awesome.min.css] are {}
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/font-awesome.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/font-awesome.min.css] is: -1
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [font-awesome.min.css] against base location: class path resource [css/]
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/font-awesome.min.css]
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/font-awesome.min.css]
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-19 - /css/font-awesome.min.css org.eclipse.jetty.server.Server - RESPONSE /css/font-awesome.min.css  200 handled=true
-DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1ca53e68{l(/127.0.0.1:54909)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
-DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-18 - /css/main.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/main.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-18 - /css/main.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/main.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-18 - /css/main.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/main.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-18 - /css/main.css org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/main.css]
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/main.css
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/main.css]
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/main.css] are [/css/**]
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/main.css] are {}
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/main.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/main.css] is: -1
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [main.css] against base location: class path resource [css/]
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/main.css]
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/main.css]
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
-DEBUG qtp432598870-18 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-18 - /css/main.css org.eclipse.jetty.server.Server - RESPONSE /css/main.css  200 handled=true
-DEBUG qtp432598870-18 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7ffccfe3{l(/127.0.0.1:54910)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
-DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap.min.css]
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap.min.css] are [/css/**]
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap.min.css] are {}
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/bootstrap.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap.min.css] is: -1
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [bootstrap.min.css] against base location: class path resource [css/]
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/bootstrap.min.css]
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/bootstrap.min.css]
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-14 - /css/bootstrap.min.css org.eclipse.jetty.server.Server - RESPONSE /css/bootstrap.min.css  200 handled=true
-DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=8}
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
 DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 420/420
-DEBUG qtp432598870-14 - /images/Portada.jpg org.eclipse.jetty.server.Server - REQUEST /images/Portada.jpg on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=9
+DEBUG qtp432598870-14 - /images/Portada.jpg org.eclipse.jetty.server.Server - REQUEST /images/Portada.jpg on AsyncHttpConnection@1453ecec,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=16
 DEBUG qtp432598870-14 - /images/Portada.jpg org.eclipse.jetty.server.handler.ContextHandler - scope null||/images/Portada.jpg @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-14 - /images/Portada.jpg org.eclipse.jetty.server.handler.ContextHandler - context=||/images/Portada.jpg @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-14 - /images/Portada.jpg org.eclipse.jetty.servlet.ServletHandler - servlet ||/images/Portada.jpg -> org.springframework.web.servlet.DispatcherServlet-1256911884
@@ -166,217 +326,204 @@ DEBUG qtp432598870-14 - /images/Portada.jpg org.springframework.web.servlet.reso
 DEBUG qtp432598870-14 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
 DEBUG qtp432598870-14 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - Successfully completed request
 DEBUG qtp432598870-14 - /images/Portada.jpg org.eclipse.jetty.server.Server - RESPONSE /images/Portada.jpg  404 handled=true
-DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=9}
+DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7162e79c{l(/127.0.0.1:55329)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1453ecec,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=16}
 DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 425/425
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.woff on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=10
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.woff -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.woff]
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.woff
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.woff]
-WARN qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.woff] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.woff  404 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=10}
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 424/424
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.ttf on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=11
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.ttf -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.ttf]
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.ttf
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.ttf]
-WARN qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.ttf] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.ttf  404 handled=true
-DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=11}
-DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 424/424
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.svg on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=12
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.svg @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.svg @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.svg -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.svg]
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.svg
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.svg]
-WARN qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.svg] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.svg  404 handled=true
-DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=12}
+DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 425/425
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.woff on AsyncHttpConnection@1453ecec,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=17
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.woff -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.woff]
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.woff
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.woff]
+WARN qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.woff] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-16 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.woff  404 handled=true
+DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7162e79c{l(/127.0.0.1:55329)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1453ecec,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=17}
 DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 316/316
-DEBUG qtp432598870-19 - /favicon.ico org.eclipse.jetty.server.Server - REQUEST /favicon.ico on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=13
-DEBUG qtp432598870-19 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - scope null||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-19 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - context=||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-19 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - servlet ||/favicon.ico -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-19 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-19 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/favicon.ico]
-DEBUG qtp432598870-19 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /favicon.ico
-DEBUG qtp432598870-19 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/favicon.ico]
-WARN qtp432598870-19 - /favicon.ico org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-19 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-19 - /favicon.ico org.eclipse.jetty.server.Server - RESPONSE /favicon.ico  404 handled=true
-DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=13}
+DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 424/424
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.ttf on AsyncHttpConnection@1453ecec,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=18
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.ttf -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.ttf]
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.ttf
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.ttf]
+WARN qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.ttf] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.ttf  404 handled=true
+DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7162e79c{l(/127.0.0.1:55329)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1453ecec,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=18}
 DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 423/423
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=14
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/team]
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
-DEBUG qtp432598870-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
-DEBUG qtp432598870-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
-DEBUG qtp432598870-16 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team freemarker.cache - Updating source, info for cause: lastModifiedNotChanged=false, cache lastModified=1405361217411 != file lastModified=1405361302409
-DEBUG qtp432598870-16 - /team freemarker.cache - Compiling FreeMarker template create-team-screen.ftl[es,Cp1252,parsed]  from C:\Workspaces\Personal\team-creator\target\classes\views\create-team-screen.ftl
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'countries' of type [[Lcom.giantrocket.team.data.model.Country;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'states' of type [[Lcom.giantrocket.team.data.model.State;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
-DEBUG qtp432598870-16 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
-DEBUG qtp432598870-16 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-16 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
-DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=14}
-DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 421/421
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.eclipse.jetty.server.Server - REQUEST /css/bootstrap.min.css on AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=15
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/bootstrap.min.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/bootstrap.min.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/bootstrap.min.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/bootstrap.min.css]
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap.min.css
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap.min.css]
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap.min.css] are [/css/**]
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap.min.css] are {}
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/bootstrap.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap.min.css] is: -1
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [bootstrap.min.css] against base location: class path resource [css/]
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/bootstrap.min.css]
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/bootstrap.min.css]
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 424/424
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.svg on AsyncHttpConnection@1453ecec,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=19
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.svg @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.svg @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.svg -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.svg]
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.svg
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.svg]
+WARN qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.svg] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.svg  404 handled=true
+DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7162e79c{l(/127.0.0.1:55329)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1453ecec,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=19}
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 0/0
 DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 423/423
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.server.Server - REQUEST /css/bootstrap-theme.css on AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=4
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/bootstrap-theme.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/bootstrap-theme.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/bootstrap-theme.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/bootstrap-theme.css]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap-theme.css
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap-theme.css]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap-theme.css] are [/css/**]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap-theme.css] are {}
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/bootstrap-theme.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap-theme.css] is: -1
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [bootstrap-theme.css] against base location: class path resource [css/]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/bootstrap-theme.css]
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/bootstrap-theme.css]
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 424/424
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.eclipse.jetty.server.Server - REQUEST /css/font-awesome.min.css on AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-15 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@1453ecec,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=20
+DEBUG qtp432598870-15 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-15 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/team]
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
+DEBUG qtp432598870-15 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
+DEBUG qtp432598870-15 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
+DEBUG qtp432598870-15 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
+DEBUG qtp432598870-15 - /team freemarker.cache - Updating source, info for cause: lastModifiedNotChanged=false, cache lastModified=1405363613247 != file lastModified=1405363841877
+DEBUG qtp432598870-15 - /team freemarker.cache - Compiling FreeMarker template create-team-screen.ftl[es,Cp1252,parsed]  from C:\Workspaces\Personal\team-creator\target\classes\views\create-team-screen.ftl
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'countries' of type [[Lcom.giantrocket.team.data.model.Country;] to request in view with name 'create-team-screen'
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'states' of type [[Lcom.giantrocket.team.data.model.State;] to request in view with name 'create-team-screen'
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
+DEBUG qtp432598870-15 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+DEBUG qtp432598870-15 - /team org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-15 - /team org.eclipse.jetty.server.Server - RESPONSE /team  200 handled=true
+DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7162e79c{l(/127.0.0.1:55329)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@1453ecec,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=20}
+DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled 421/421
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.eclipse.jetty.server.Server - REQUEST /css/bootstrap.min.css on AsyncHttpConnection@1453ecec,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=21
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/bootstrap.min.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/bootstrap.min.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/bootstrap.min.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/bootstrap.min.css]
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap.min.css
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap.min.css]
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap.min.css] are [/css/**]
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap.min.css] are {}
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/bootstrap.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap.min.css] is: -1
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [bootstrap.min.css] against base location: class path resource [css/]
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/bootstrap.min.css]
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/bootstrap.min.css]
+DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 424/424
+DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 417/417
 DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 412/412
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-13 - /css/main.css org.eclipse.jetty.server.Server - REQUEST /css/main.css on AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=4
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 410/410
+DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 423/423
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.eclipse.jetty.server.Server - REQUEST /css/font-awesome.min.css on AsyncHttpConnection@191c0b76,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=2
+DEBUG qtp432598870-13 - /css/main.css org.eclipse.jetty.server.Server - REQUEST /css/main.css on AsyncHttpConnection@c33f45e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=37
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=20
 DEBUG qtp432598870-13 - /css/main.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/main.css @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-13 - /css/main.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/main.css @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-13 - /css/main.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/main.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
 DEBUG qtp432598870-13 - /css/main.css org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/font-awesome.min.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.eclipse.jetty.server.Server - REQUEST /css/bootstrap-theme.css on AsyncHttpConnection@dd41677,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=10
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/bootstrap-theme.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/bootstrap-theme.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/bootstrap-theme.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@4aa0b07b,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=16
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/bootstrap-theme.css]
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/bootstrap-theme.css
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/bootstrap-theme.css]
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/bootstrap-theme.css] are [/css/**]
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/font-awesome.min.css @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/font-awesome.min.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.eclipse.jetty.servlet.ServletHandler - chain=null
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/main.css]
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/main.css
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.eclipse.jetty.server.handler.ContextHandler - scope null||/css/font-awesome.min.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.eclipse.jetty.server.handler.ContextHandler - context=||/css/font-awesome.min.css @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.eclipse.jetty.servlet.ServletHandler - servlet ||/css/font-awesome.min.css -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/font-awesome.min.css]
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/font-awesome.min.css
-DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 410/410
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/main.css]
-DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled 417/417
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/headroom.min.js on AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
-DEBUG qtp432598870-15 - /css/bootstrap-theme.css org.eclipse.jetty.server.Server - RESPONSE /css/bootstrap-theme.css  200 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1ca53e68{l(/127.0.0.1:54909)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=4}
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 406/406
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.server.Server - REQUEST /assets/js/template.js on AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=5
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/headroom.min.js]
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/headroom.min.js
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/headroom.min.js]
-WARN qtp432598870-16 - /assets/js/headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-16 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/headroom.min.js  404 handled=true
-DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1b219665{l(/127.0.0.1:54913)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
-DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - REQUEST /assets/js/jQuery.headroom.min.js on AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=4
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/main.css] are [/css/**]
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/font-awesome.min.css]
-DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/main.css] are {}
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-19 - /css/bootstrap.min.css org.eclipse.jetty.server.Server - RESPONSE /css/bootstrap.min.css  200 handled=true
-DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=15}
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/css/font-awesome.min.css]
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/bootstrap-theme.css] are {}
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/bootstrap-theme.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/bootstrap-theme.css] is: -1
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [bootstrap-theme.css] against base location: class path resource [css/]
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/bootstrap-theme.css]
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/bootstrap-theme.css]
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-19 - /css/bootstrap-theme.css org.eclipse.jetty.server.Server - RESPONSE /css/bootstrap-theme.css  200 handled=true
+DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@3918d722{l(/127.0.0.1:55328)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@dd41677,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=10}
 DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /css/font-awesome.min.css
+DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/main.css] are {}
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/jQuery.headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/main.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/font-awesome.min.css] are [/css/**]
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/headroom.min.js @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/main.css] is: -1
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/template.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/template.js]
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/css/font-awesome.min.css]
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/jQuery.headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Matching patterns for request [/css/font-awesome.min.css] are [/css/**]
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [main.css] against base location: class path resource [css/]
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/font-awesome.min.css] are {}
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/font-awesome.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/font-awesome.min.css] is: -1
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [font-awesome.min.css] against base location: class path resource [css/]
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/font-awesome.min.css]
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/font-awesome.min.css]
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-14 - /css/font-awesome.min.css org.eclipse.jetty.server.Server - RESPONSE /css/font-awesome.min.css  200 handled=true
-DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7ffccfe3{l(/127.0.0.1:54910)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/jQuery.headroom.min.js]
-DEBUG qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/template.js
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/headroom.min.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - URI Template variables for request [/css/font-awesome.min.css] are {}
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapping [/css/font-awesome.min.css] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.ResourceHttpRequestHandler@111f2041] and 1 interceptor
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/css/font-awesome.min.css] is: -1
+DEBUG qtp432598870-18 - /css/bootstrap.min.css org.eclipse.jetty.server.Server - RESPONSE /css/bootstrap.min.css  200 handled=true
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/main.css]
-DEBUG qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/template.js]
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/headroom.min.js]
 DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/main.css]
-WARN qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-WARN qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/template.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-15 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-15 - /assets/js/template.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/template.js  404 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1ca53e68{l(/127.0.0.1:54909)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=5}
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
-DEBUG qtp432598870-18 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-18 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@15e1df6e{l(/127.0.0.1:54912)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=4}
-DEBUG qtp432598870-13 - /css/main.css org.eclipse.jetty.server.Server - RESPONSE /css/main.css  200 handled=true
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [font-awesome.min.css] against base location: class path resource [css/]
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/jQuery.headroom.min.js
+DEBUG qtp432598870-18 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@7162e79c{l(/127.0.0.1:55329)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=4w}-{AsyncHttpConnection@1453ecec,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=21}
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/headroom.min.js
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/jQuery.headroom.min.js]
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/headroom.min.js]
+WARN qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/jQuery.headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Found matching resource: class path resource [css/font-awesome.min.css]
 DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=4}
+WARN qtp432598870-14 - /assets/js/headroom.min.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/headroom.min.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Determined media type 'text/css' for class path resource [css/font-awesome.min.css]
+DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-15 - /assets/js/jQuery.headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/jQuery.headroom.min.js  404 handled=true
+DEBUG qtp432598870-13 - /css/main.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-13 - /css/main.css org.eclipse.jetty.server.Server - RESPONSE /css/main.css  200 handled=true
+DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1a8fa0f0{l(/127.0.0.1:55290)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=20}
+DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1440578d{l(/127.0.0.1:55288)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@c33f45e,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=37}
+DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
 DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 406/406
+DEBUG qtp432598870-19 - /assets/js/template.js org.eclipse.jetty.server.Server - REQUEST /assets/js/template.js on AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=21
+DEBUG qtp432598870-19 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-19 - /assets/js/template.js org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/js/template.js @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-19 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/js/template.js -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-19 - /assets/js/template.js org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-16 - /css/font-awesome.min.css org.eclipse.jetty.server.Server - RESPONSE /css/font-awesome.min.css  200 handled=true
+DEBUG qtp432598870-14 - /assets/js/headroom.min.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/headroom.min.js  404 handled=true
+DEBUG qtp432598870-19 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/js/template.js]
+DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@5cb08ba7{l(/127.0.0.1:55327)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4aa0b07b,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=16}
+DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@36ed5ba6{l(/127.0.0.1:55401)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@191c0b76,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=2}
+DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-19 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/js/template.js
+DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
+DEBUG qtp432598870-19 - /assets/js/template.js org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/js/template.js]
+WARN qtp432598870-19 - /assets/js/template.js org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/js/template.js] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
+DEBUG qtp432598870-19 - /assets/js/template.js org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-19 - /assets/js/template.js org.eclipse.jetty.server.Server - RESPONSE /assets/js/template.js  404 handled=true
+DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1a8fa0f0{l(/127.0.0.1:55290)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=21}
+DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 0/0
 DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 420/420
-DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.Server - REQUEST /images/Portada.jpg on AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=5
+DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.Server - REQUEST /images/Portada.jpg on AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=22
 DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.handler.ContextHandler - scope null||/images/Portada.jpg @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.handler.ContextHandler - context=||/images/Portada.jpg @ o.e.j.s.ServletContextHandler{/,null}
 DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.servlet.ServletHandler - servlet ||/images/Portada.jpg -> org.springframework.web.servlet.DispatcherServlet-1256911884
@@ -390,144 +537,32 @@ DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.hand
 DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/images/Portada.jpg] is: -1
 DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Trying relative path [Portada.jpg] against base location: class path resource [images/]
 DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.resource.ResourceHttpRequestHandler - No matching resource found - returning 404
+DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 425/425
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.woff on AsyncHttpConnection@191c0b76,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=3
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.woff -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.woff]
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.woff
 DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884': assuming HandlerAdapter completed request handling
 DEBUG qtp432598870-16 - /images/Portada.jpg org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.woff]
+WARN qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.woff] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
 DEBUG qtp432598870-16 - /images/Portada.jpg org.eclipse.jetty.server.Server - RESPONSE /images/Portada.jpg  404 handled=true
-DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=5}
+DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@1a8fa0f0{l(/127.0.0.1:55290)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@4b8efa2f,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=22}
 DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 425/425
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.woff on AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=6
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.woff @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.woff -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.woff]
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.woff
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.woff]
-WARN qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.woff] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-14 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.woff  404 handled=true
-DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=6}
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 424/424
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.ttf on AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=7
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.ttf -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.ttf]
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.ttf
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.ttf]
-WARN qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.ttf] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.ttf  404 handled=true
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=7}
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.springframework.web.servlet.DispatcherServlet - Successfully completed request
+DEBUG qtp432598870-15 - /assets/fonts/cubano-regular-webfont.woff org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.woff  404 handled=true
+DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@36ed5ba6{l(/127.0.0.1:55401)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@191c0b76,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=3}
 DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 424/424
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.svg on AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=8
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.svg @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.svg @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.svg -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.svg]
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.svg
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.svg]
-WARN qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.svg] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-19 - /assets/fonts/cubano-regular-webfont.svg org.eclipse.jetty.server.Server - RESPONSE /assets/fonts/cubano-regular-webfont.svg  404 handled=true
-DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=8}
-DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 316/316
-DEBUG qtp432598870-16 - /favicon.ico org.eclipse.jetty.server.Server - REQUEST /favicon.ico on AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=9
-DEBUG qtp432598870-16 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - scope null||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /favicon.ico org.eclipse.jetty.server.handler.ContextHandler - context=||/favicon.ico @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-16 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - servlet ||/favicon.ico -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-16 - /favicon.ico org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-16 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/favicon.ico]
-DEBUG qtp432598870-16 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /favicon.ico
-DEBUG qtp432598870-16 - /favicon.ico org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/favicon.ico]
-WARN qtp432598870-16 - /favicon.ico org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-16 - /favicon.ico org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-DEBUG qtp432598870-16 - /favicon.ico org.eclipse.jetty.server.Server - RESPONSE /favicon.ico  404 handled=true
-DEBUG qtp432598870-16 org.eclipse.jetty.server.AsyncHttpConnection - Enabled read interest SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=4,h=0,b=0,c=-1},p=HttpParser{s=0,l=6,c=0},r=9}
-DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-15 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200427ms AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4 SCEP@15e1df6e{l(/127.0.0.1:54912)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
-DEBUG qtp432598870-15 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@15e1df6e{l(/127.0.0.1:54912)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
-DEBUG qtp432598870-15 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200447ms AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3 SCEP@1b219665{l(/127.0.0.1:54913)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
-DEBUG qtp432598870-15 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@1b219665{l(/127.0.0.1:54913)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
-DEBUG qtp432598870-18 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200427ms AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=5 SCEP@1ca53e68{l(/127.0.0.1:54909)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=5}
-DEBUG qtp432598870-18 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@1ca53e68{l(/127.0.0.1:54909)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=5}
-DEBUG qtp432598870-14 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200445ms AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=15 SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1w}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=15}
-DEBUG qtp432598870-14 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1w}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=15}
-DEBUG qtp432598870-13 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200435ms AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3 SCEP@7ffccfe3{l(/127.0.0.1:54910)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
-DEBUG qtp432598870-13 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@7ffccfe3{l(/127.0.0.1:54910)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
-DEBUG qtp432598870-15 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@1b219665{l(/127.0.0.1:54913)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
-DEBUG qtp432598870-15 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@1b219665{l(/127.0.0.1:54913)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled -1/0
-DEBUG qtp432598870-15 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@1b219665{l(/127.0.0.1:54913)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3}
-DEBUG qtp432598870-14 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@7ffccfe3{l(/127.0.0.1:54910)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
-DEBUG qtp432598870-14 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@7ffccfe3{l(/127.0.0.1:54910)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=3}
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled -1/0
-DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@7ffccfe3{l(/127.0.0.1:54910)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3}
-DEBUG qtp432598870-18 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=15}
-DEBUG qtp432598870-18 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=15}
-DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled -1/0
-DEBUG qtp432598870-18 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@74f2ff9b{l(/127.0.0.1:54911)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=15}
-DEBUG qtp432598870-19 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@1ca53e68{l(/127.0.0.1:54909)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=5}
-DEBUG qtp432598870-19 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@1ca53e68{l(/127.0.0.1:54909)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=5}
-DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled -1/0
-DEBUG qtp432598870-19 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@1ca53e68{l(/127.0.0.1:54909)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=5}
-DEBUG qtp432598870-13 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@15e1df6e{l(/127.0.0.1:54912)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@1b219665{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@3a18cecd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@7ffccfe3{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@2eb481ba,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=3
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@74f2ff9b{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=15}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@7d6b5518,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=15
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@1ca53e68{l(null)<->r(/127.0.0.1:9290),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=5}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@24a42c89,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=5
-DEBUG qtp432598870-13 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@15e1df6e{l(/127.0.0.1:54912)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@15e1df6e{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=4
-DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled -1/0
-DEBUG qtp432598870-13 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@15e1df6e{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1-}-{AsyncHttpConnection@2013b9fb,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=4}
-DEBUG qtp432598870-15 org.eclipse.jetty.io.AbstractConnection - onIdleExpired 200281ms AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=9 SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=9}
-DEBUG qtp432598870-15 org.eclipse.jetty.io.nio.ChannelEndPoint - oshut SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=9}
-DEBUG qtp432598870-14 org.eclipse.jetty.io.nio.ChannelEndPoint - ishut SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=9}
-DEBUG qtp432598870-14 org.eclipse.jetty.io.nio.ChannelEndPoint - close SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=9}
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled -1/0
-DEBUG qtp432598870-14 org.eclipse.jetty.server.AsyncHttpConnection - Disabled read interest while writing response SCEP@73b8cdd5{l(/127.0.0.1:54908)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=9}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - destroyEndPoint SCEP@73b8cdd5{l(null)<->r(/127.0.0.1:9290),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=9}
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.server.AbstractHttpConnection - closed AsyncHttpConnection@69d1964d,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=9
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@71591b4d{l(/127.0.0.1:54985)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@110f965e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
-DEBUG qtp432598870-19 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@3953c9c7{l(/127.0.0.1:54986)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@2be44538,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
-DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@6c29d838{l(/127.0.0.1:54987)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@1b6b7f83,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
-DEBUG qtp432598870-16 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@53281264{l(/127.0.0.1:54988)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@6bcf8de2,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
-DEBUG qtp432598870-15 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-12 Selector0 org.eclipse.jetty.io.nio - created SCEP@54477b4e{l(/127.0.0.1:54989)<->r(/127.0.0.1:9290),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@20f0691c,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
-DEBUG qtp432598870-18 org.eclipse.jetty.http.HttpParser - filled 0/0
-DEBUG qtp432598870-14 org.eclipse.jetty.http.HttpParser - filled 423/423
-DEBUG qtp432598870-14 - /team org.eclipse.jetty.server.Server - REQUEST /team on AsyncHttpConnection@110f965e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=1
-DEBUG qtp432598870-14 - /team org.eclipse.jetty.server.handler.ContextHandler - scope null||/team @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /team org.eclipse.jetty.server.handler.ContextHandler - context=||/team @ o.e.j.s.ServletContextHandler{/,null}
-DEBUG qtp432598870-14 - /team org.eclipse.jetty.servlet.ServletHandler - servlet ||/team -> org.springframework.web.servlet.DispatcherServlet-1256911884
-DEBUG qtp432598870-14 - /team org.eclipse.jetty.servlet.ServletHandler - chain=null
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/team]
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /team
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.giantrocket.team.web.controller.TeamController.getEmptyTeamForm()]
-DEBUG qtp432598870-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'com.giantrocket.team.web.controller.TeamController#0'
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/team] is: -1
-DEBUG qtp432598870-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'freemarkerConfig'
-DEBUG qtp432598870-14 - /team org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'create-team-screen'
-DEBUG qtp432598870-14 - /team freemarker.cache - Updating source, info for cause: lastModifiedNotChanged=false, cache lastModified=1405361302409 != file lastModified=1405361523359
-DEBUG qtp432598870-14 - /team freemarker.cache - Compiling FreeMarker template create-team-screen.ftl[es,Cp1252,parsed]  from C:\Workspaces\Personal\team-creator\target\classes\views\create-team-screen.ftl
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.DispatcherServlet - Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'create-team-screen'; URL [create-team-screen.ftl]] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'roles' of type [[Lcom.giantrocket.team.data.model.Role;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'countries' of type [[Lcom.giantrocket.team.data.model.Country;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'states' of type [[Lcom.giantrocket.team.data.model.State;] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'create-team-screen'
-DEBUG qtp432598870-14 - /team org.springframework.web.servlet.view.freemarker.FreeMarkerView - Rendering FreeMarker template [create-team-screen.ftl] in FreeMarkerView 'create-team-screen'
-DEBUG qtp432598870-14 - /team freemarker.cache - create-team-screen.ftl[es,Cp1252,parsed] cached copy not yet stale; using cached.
+DEBUG qtp432598870-13 org.eclipse.jetty.http.HttpParser - filled 424/424
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.Server - REQUEST /assets/fonts/cubano-regular-webfont.ttf on AsyncHttpConnection@191c0b76,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=6,c=0},r=4
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - scope null||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.server.handler.ContextHandler - context=||/assets/fonts/cubano-regular-webfont.ttf @ o.e.j.s.ServletContextHandler{/,null}
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - servlet ||/assets/fonts/cubano-regular-webfont.ttf -> org.springframework.web.servlet.DispatcherServlet-1256911884
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.eclipse.jetty.servlet.ServletHandler - chain=null
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884' processing GET request for [/assets/fonts/cubano-regular-webfont.ttf]
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /assets/fonts/cubano-regular-webfont.ttf
+DEBUG qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Did not find handler method for [/assets/fonts/cubano-regular-webfont.ttf]
+WARN qtp432598870-13 - /assets/fonts/cubano-regular-webfont.ttf org.springframework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/assets/fonts/cubano-regular-webfont.ttf] in DispatcherServlet with name 'org.springframework.web.servlet.DispatcherServlet-1256911884'

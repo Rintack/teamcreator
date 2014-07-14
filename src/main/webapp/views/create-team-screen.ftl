@@ -46,11 +46,11 @@
 					<label for="teamName">Team Name:</label>
 					<input class="mustComplete" type="text" id="teamName" name="teamName" value=""><br>
 					<label for="teamName">TAG:</label>
-					<input type="text" id="tag" name="tag" value=""><br>
+					<input class="mustComplete" type="text" id="tag" name="tag" value=""><br>
 					<label for="teamName">Mail:</label>
-					<input type="text" id="mail" name="mail" value=""><br>
+					<input class="mustComplete" type="text" id="mail" name="mail" value=""><br>
 					<label for="teamName">Logo URL:</label> 
-					<input type="text" id="logoUrl" name="logoUrl" value=""><br>
+					<input class="mustComplete" type="text" id="logoUrl" name="logoUrl" value=""><br>
 					<label for="teamName">Facebook:</label>
 					<input type="text" id="facebook" name="facebook" value=""><br>
 					<label for="teamName">Twitter:</label>
@@ -59,351 +59,43 @@
 					<input type="text" id="web" name="web" value=""><br>
 					
 					<ul id="playersList">
-					<div id="accordion">
-					   <h3 id="1">Player 1:</h3>
-					   <div>
-							<li class='player'>
-								<input type="hidden" id="playerNumber" value="1"/>
-								<label for='name'>Name:</label>
-								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
-								<label for='lastName'>Last Name:</label>
-								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
-								<label for='idNumber'>Documento:</label>
-								<input type='text' id='idNumber' name='idNumber' value=''><br>
-								<label for='birthday'>Cumpleaños:</label>
-								<input class='birthday' type="text" id="birthday"><br>
-								<label for='nick'>Nick:</label>
-								<input type='text' id='nick' name='nick' value=''><br>
-								<label for='steam'>Steam:</label>
-								<input type='text' id='steam' name='steam' value=''><br>
-								<label for='dotabuff'>Dotabuff:</label>
-								<input type='text' id='dotabuff' name='dotabuff' value=''><br>
-								<label for='pictureUrl'>Picture URL:</label>
-								<input type='text' id='pictureUrl' name='pictureUrl' value=''><br>
-								<label for='isCaptain'>Capitan:</label>
-								<input type="checkbox" id='isCaptain' name='isCaptain' value='Capitan'><br>
-								<label for='country'>Country:</label>
-								<select class='country' id='country' name="country">
-						        <#list countries as country>
-						        <option value="${country}">${country.description}</option>
-						        </#list>
-						        </select> <br>
-						        <div id='relativeLocation'>
-						        <label for='state'>Provincia:</label>
-						        <select id='state' name="state">
-						        <#list states as state>
-						        <option value="${state}">${state.description}</option>
-						        </#list>
-						        </select> <br>
-						        <label for='city'>Ciudad:</label>
-						        <input type='text' id='city' name='city' value=''><br>
-						        <label for='neighbourhood'>Barrio:</label>
-						        <input type='text' id='neighbourhood' name='neighbourhood' value=''><br>
-						        </div>
-								<label for='roles'>Rol:</label>
-								<select id='role' name="role">
-								<option value="DEFAULT">Elije un rol</option>
-						        <#list roles as enum>
-						        <option value="${enum}">${enum.description}</option>
-						        </#list>
-						    	</select> <br>
-						  </li>
-					   </div>	
-						<h3 id="2">Player 2:</h3>
-						<div>
-							<li class='player'>
-								<input type="hidden" id="playerNumber" value="2"/>
-								<label for='name'>Name:</label>
-								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
-								<label for='lastName'>Last Name:</label>
-								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
-								<label for='idNumber'>Documento:</label>
-								<input type='text' id='idNumber' name='idNumber' value=''><br>
-								<label for='birthday'>Cumpleaños:</label>
-								<input class='birthday' type="text" id="birthday"><br>								
-								<label for='nick'>Nick:</label>
-								<input type='text' id='nick' name='nick' value=''><br>
-								<label for='steam'>Steam:</label>
-								<input type='text' id='steam' name='steam' value=''><br>
-								<label for='dotabuff'>Dotabuff:</label>
-								<input type='text' id='dotabuff' name='dotabuff' value=''><br>
-								<label for='pictureUrl'>Picture URL:</label>
-								<input type='text' id='pictureUrl' name='pictureUrl' value=''><br>
-								<label for='isCaptain'>Capitan:</label>
-								<input type="checkbox" id='isCaptain' name='isCaptain' value='Capitan'><br>
-								<label for='country'>Country:</label>
-								<select class='country' id='country' name="country">
-						        <#list countries as country>
-						        <option value="${country}">${country.description}</option>
-						        </#list>
-						        </select> <br>
-						        <div id='relativeLocation'>
-						        <label for='state'>Provincia:</label>
-						        <select id='state' name="state">
-						        <#list states as state>
-						        <option value="${state}">${state.description}</option>
-						        </#list>
-						        </select> <br>
-						        <label for='city'>Ciudad:</label>
-						        <input type='text' id='city' name='city' value=''><br>
-						        <label for='neighbourhood'>Barrio:</label>
-						        <input type='text' id='neighbourhood' name='neighbourhood' value=''><br>
-						        </div>
-								<label for='roles'>Rol:</label>
-								<select id='role' name="role">
-								<option value="DEFAULT">Elije un rol</option>
-						        <#list roles as enum>
-						        <option value="${enum}">${enum.description}</option>
-						        </#list>
-						    	</select> <br>
-						  </li>
-					   </div>
-						<h3 id="3">Player 3:</h3>
-						<div>
-							<li class='player'>
-								<input type="hidden" id="playerNumber" value="3"/>
-								<label for='name'>Name:</label>
-								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
-								<label for='lastName'>Last Name:</label>
-								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
-								<label for='idNumber'>Documento:</label>
-								<input type='text' id='idNumber' name='idNumber' value=''><br>	
-								<label for='birthday'>Cumpleaños:</label>
-								<input class='birthday' type="text" id="birthday"><br>													
-								<label for='nick'>Nick:</label>
-								<input type='text' id='nick' name='nick' value=''><br>
-								<label for='steam'>Steam:</label>
-								<input type='text' id='steam' name='steam' value=''><br>
-								<label for='dotabuff'>Dotabuff:</label>
-								<input type='text' id='dotabuff' name='dotabuff' value=''><br>
-								<label for='pictureUrl'>Picture URL:</label>
-								<input type='text' id='pictureUrl' name='pictureUrl' value=''><br>
-								<label for='isCaptain'>Capitan:</label>
-								<input type="checkbox" id='isCaptain' name='isCaptain' value='Capitan'><br>
-								<label for='country'>Country:</label>
-								<select class='country' id='country' name="country">
-						        <#list countries as country>
-						        <option value="${country}">${country.description}</option>
-						        </#list>
-						        </select> <br>
-						        <div id='relativeLocation'>
-						        <label for='state'>Provincia:</label>
-						        <select id='state' name="state">
-						        <#list states as state>
-						        <option value="${state}">${state.description}</option>
-						        </#list>
-						        </select> <br>
-						        <label for='city'>Ciudad:</label>
-						        <input type='text' id='city' name='city' value=''><br>
-						        <label for='neighbourhood'>Barrio:</label>
-						        <input type='text' id='neighbourhood' name='neighbourhood' value=''><br>
-						        </div>
-								<label for='roles'>Rol:</label>
-								<select id='role' name="role">
-								<option value="DEFAULT">Elije un rol</option>
-						        <#list roles as enum>
-						        <option value="${enum}">${enum.description}</option>
-						        </#list>
-						    	</select> <br>
-						  </li>
-					   </div>
-					   <h3 id="4">Player 4:</h3>
-						<div>
-							<li class='player'>
-								<input type="hidden" id="playerNumber" value="4"/>
-								<label for='name'>Name:</label>
-								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
-								<label for='lastName'>Last Name:</label>
-								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
-								<label for='idNumber'>Documento:</label>
-								<input type='text' id='idNumber' name='idNumber' value=''><br>	
-								<label for='birthday'>Cumpleaños:</label>
-								<input class='birthday' type="text" id="birthday"><br>														
-								<label for='nick'>Nick:</label>
-								<input type='text' id='nick' name='nick' value=''><br>
-								<label for='steam'>Steam:</label>
-								<input type='text' id='steam' name='steam' value=''><br>
-								<label for='dotabuff'>Dotabuff:</label>
-								<input type='text' id='dotabuff' name='dotabuff' value=''><br>
-								<label for='pictureUrl'>Picture URL:</label>
-								<input type='text' id='pictureUrl' name='pictureUrl' value=''><br>
-								<label for='isCaptain'>Capitan:</label>
-								<input type="checkbox" id='isCaptain' name='isCaptain' value='Capitan'><br>
-								<label for='country'>Country:</label>
-								<select class='country' id='country' name="country">
-						        <#list countries as country>
-						        <option value="${country}">${country.description}</option>
-						        </#list>
-						        </select> <br>
-						        <div id='relativeLocation'>
-						        <label for='state'>Provincia:</label>
-						        <select id='state' name="state">
-						        <#list states as state>
-						        <option value="${state}">${state.description}</option>
-						        </#list>
-						        </select> <br>
-						        <label for='city'>Ciudad:</label>
-						        <input type='text' id='city' name='city' value=''><br>
-						        <label for='neighbourhood'>Barrio:</label>
-						        <input type='text' id='neighbourhood' name='neighbourhood' value=''><br>
-						        </div>
-								<label for='roles'>Rol:</label>
-								<select id='role' name="role">
-								<option value="DEFAULT">Elije un rol</option>
-						        <#list roles as enum>
-						        <option value="${enum}">${enum.description}</option>
-						        </#list>
-						    	</select> <br>
-						  </li>
-					   </div>
-					   <h3 id="5">Player 5:</h3>
-						<div>
-							<li class='player'>
-								<input type="hidden" id="playerNumber" value="5"/>
-								<label for='name'>Name:</label>
-								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
-								<label for='lastName'>Last Name:</label>
-								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
-								<label for='idNumber'>Documento:</label>
-								<input type='text' id='idNumber' name='idNumber' value=''><br>
-								<label for='birthday'>Cumpleaños:</label>
-								<input class='birthday' type="text" id="birthday"><br>						
-								<label for='nick'>Nick:</label>
-								<input type='text' id='nick' name='nick' value=''><br>
-								<label for='steam'>Steam:</label>
-								<input type='text' id='steam' name='steam' value=''><br>
-								<label for='dotabuff'>Dotabuff:</label>
-								<input type='text' id='dotabuff' name='dotabuff' value=''><br>
-								<label for='pictureUrl'>Picture URL:</label>
-								<input type='text' id='pictureUrl' name='pictureUrl' value=''><br>
-								<label for='isCaptain'>Capitan:</label>
-								<input type="checkbox" id='isCaptain' name='isCaptain' value='Capitan'><br>
-								<label for='country'>Country:</label>
-								<select class='country' id='country' name="country">
-						        <#list countries as country>
-						        <option value="${country}">${country.description}</option>
-						        </#list>
-						        </select> <br>
-						        <div id='relativeLocation'>
-						        <label for='state'>Provincia:</label>
-						        <select id='state' name="state">
-						        <#list states as state>
-						        <option value="${state}">${state.description}</option>
-						        </#list>
-						        </select> <br>
-						        <label for='city'>Ciudad:</label>
-						        <input type='text' id='city' name='city' value=''><br>
-						        <label for='neighbourhood'>Barrio:</label>
-						        <input type='text' id='neighbourhood' name='neighbourhood' value=''><br>
+						<div id="accordion">
+							<h3 id="1">Player 1:</h3> 
+								<div> 
+									<li class='player' id="player1">
+									</li>
+								</div> 
+							<h3 id="2">Player 2:</h3> 
+								<div> 
+									<li class='player' id="player2">
+									</li>
 								</div>
-								<label for='roles'>Rol:</label>
-								<select id='role' name="role">
-								<option value="DEFAULT">Elije un rol</option>
-						        <#list roles as enum>
-						        <option value="${enum}">${enum.description}</option>
-						        </#list>
-						    	</select> <br>
-						  </li>
-					   </div>
-					   <h3 id="6">Player 6:</h3>
-						<div>
-							<li class='player'>
-								<input type="hidden" id="playerNumber" value="6"/>
-								<label for='name'>Name:</label>
-								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
-								<label for='lastName'>Last Name:</label>
-								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
-								<label for='idNumber'>Documento:</label>
-								<input type='text' id='idNumber' name='idNumber' value=''><br>								
-								<label for='birthday'>Cumpleaños:</label>
-								<input class='birthday' type="text" id="birthday"><br>						
-								<label for='nick'>Nick:</label>
-								<input type='text' id='nick' name='nick' value=''><br>
-								<label for='steam'>Steam:</label>
-								<input type='text' id='steam' name='steam' value=''><br>
-								<label for='dotabuff'>Dotabuff:</label>
-								<input type='text' id='dotabuff' name='dotabuff' value=''><br>
-								<label for='pictureUrl'>Picture URL:</label>
-								<input type='text' id='pictureUrl' name='pictureUrl' value=''><br>
-								<label for='isCaptain'>Capitan:</label>
-								<input type="checkbox" id='isCaptain' name='isCaptain' value='Capitan'><br>
-								<label for='country'>Country:</label>
-								<select class='country' id='country' name="country">
-						        <#list countries as country>
-						        <option value="${country}">${country.description}</option>
-						        </#list>
-						        </select> <br>
-						        <div id='relativeLocation'>
-						        <label for='state'>Provincia:</label>
-						        <select id='state' name="state">
-						        <#list states as state>
-						        <option value="${state}">${state.description}</option>
-						        </#list>
-						        </select> <br>
-						        <label for='city'>Ciudad:</label>
-						        <input type='text' id='city' name='city' value=''><br>
-						        <label for='neighbourhood'>Barrio:</label>
-						        <input type='text' id='neighbourhood' name='neighbourhood' value=''><br>
-						        </div>
-								<label for='roles'>Rol:</label>
-								<select id='role' name="role">
-								<option value="DEFAULT">Elije un rol</option>
-						        <#list roles as enum>
-						        <option value="${enum}">${enum.description}</option>
-						        </#list>
-						    	</select> <br>
-						  </li>
-					   </div>
-					 	<h3 id="7">Player 7:</h3>
-						<div>
-							<li class='player'>
-								<input type="hidden" id="playerNumber" value="7"/>
-								<label for='name'>Name:</label>
-								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
-								<label for='lastName'>Last Name:</label>
-								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
-								<label for='idNumber'>Documento:</label>
-								<input type='text' id='idNumber' name='idNumber' value=''><br>
-								<label for='birthday'>Cumpleaños:</label>
-								<input class='birthday' type="text" id="birthday"><br>						
-								<label for='nick'>Nick:</label>
-								<input type='text' id='nick' name='nick' value=''><br>
-								<label for='steam'>Steam:</label>
-								<input type='text' id='steam' name='steam' value=''><br>
-								<label for='dotabuff'>Dotabuff:</label>
-								<input type='text' id='dotabuff' name='dotabuff' value=''><br>
-								<label for='pictureUrl'>Picture URL:</label>
-								<input type='text' id='pictureUrl' name='pictureUrl' value=''><br>
-								<label for='isCaptain'>Capitan:</label>
-								<input type="checkbox" id='isCaptain' name='isCaptain' value='Capitan'><br>
-								<label for='country'>Country:</label>
-								<select class='country' id='country' name="country">
-						        <#list countries as country>
-						        <option value="${country}">${country.description}</option>
-						        </#list>
-						        </select> <br>
-						        <div id='relativeLocation'>
-						        <label for='state'>Provincia:</label>
-						        <select id='state' name="state">
-						        <#list states as state>
-						        <option value="${state}">${state.description}</option>
-						        </#list>
-						        </select> <br>
-						        <label for='city'>Ciudad:</label>
-						        <input type='text' id='city' name='city' value=''><br>
-						        <label for='neighbourhood'>Barrio:</label>
-						        <input type='text' id='neighbourhood' name='neighbourhood' value=''><br>
-						        </div>
-								<label for='roles'>Rol:</label>
-								<select id='role' name="role">
-								<option value="DEFAULT">Elije un rol</option>
-						        <#list roles as enum>
-						        <option value="${enum}">${enum.description}</option>
-						        </#list>
-						    	</select> <br>
-						  </li>
-					   </div>
-					</div>
+							<h3 id="3">Player 3:</h3> 
+								<div> 
+									<li class='player' id="player3">
+									</li>
+								</div> 
+							<h3 id="4">Player 4:</h3> 
+								<div> 
+									<li class='player' id="player4">
+									</li>
+								</div> 
+							<h3 id="5">Player 5:</h3> 
+								<div> 
+									<li class='player' id="player5">
+									</li>
+								</div> 
+							<h3 id="6">Player 6:</h3> 
+								<div> 
+									<li class='player' id="player6">
+									</li>
+								</div> 
+							<h3 id="7">Player 7:</h3> 
+								<div> 
+									<li class='player' id="player7">
+									</li>
+								</div> 																																								 
+						</div>
 					</ul>
 					<input class="btn primary" type="submit" value="Create">
 				</form>
@@ -420,6 +112,36 @@
   	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 	<script>
 		$(document).ready(function() {
+			var playerNumber = 0;
+				while(playerNumber < 7){
+					playerNumber++;
+					var htmlPlayerNumber = "<input type='hidden' id='playerNumber' value='"+playerNumber+"'/>"
+					var htmlName = "<label for='name'>Name:</label> <input class='tagEditor mustComplete' type='text' id ='name' name='name' value=''><br>";
+					var htmlLastName = "<label for='lastName'>Last Name:</label> <input class='tagEditor mustComplete' type='text' id='lastName' name='lastName' value=''><br>";
+					var htmlIdNumber = "<label for='idNumber'>Documento:</label> <input type='text' class='mustComplete' id='idNumber' name='idNumber' value=''><br>";
+					var htmlBirthday = "<label for='birthday'>Cumpleaños:</label> <input class='birthday mustComplete' type='text' id='birthday'><br>";
+					var htmlNick = "<label for='nick'>Nick:</label> <input class='mustComplete' type='text' id='nick' name='nick' value=''><br>";
+					var htmlSteam = "<label for='steam'>Steam:</label> <input class='mustComplete' type='text' id='steam' name='steam' value=''><br>";
+					var htmlDotabuff = "<label for='dotabuff'>Dotabuff:</label> <input type='text' id='dotabuff' name='dotabuff' value=''><br>";
+					var htmlPicture = "<label for='pictureUrl'>Picture URL:</label> <input class='mustComplete' type='text' id='pictureUrl' name='pictureUrl' value=''><br>";
+					var htmlCaptain = "<label for='isCaptain'>Capitan:</label> <input type='checkbox' id='isCaptain' name='isCaptain' value='Capitan'><br>";
+					var htmlCountry = "<label for='country'>Country:</label> <select class='country' id='country' name='country'> <#list countries as country> <option value='${country}'>${country.description}</option> </#list> </select> <br>";
+					var htmlRelativeLocation = "<div id='relativeLocation'> <label for='state'>Provincia:</label> <select id='state' name='state'> <#list states as state> <option value='${state}'>${state.description}</option> </#list> </select> <br> <label for='city'>Ciudad:</label> <input type='text' id='city' name='city' value=''><br> <label for='neighbourhood'>Barrio:</label> <input type='text' id='neighbourhood' name='neighbourhood' value=''><br> </div>";
+					var htmlRole = "<label for='roles'>Rol:</label> <select class='mustComplete' id='role' name='role'> <option  value='DEFAULT'>Elije un rol</option> <#list roles as enum> <option value='${enum}'>${enum.description}</option> </#list> </select> <br>";
+					$("#player"+playerNumber).append(htmlPlayerNumber);
+					$("#player"+playerNumber).append(htmlName);
+					$("#player"+playerNumber).append(htmlLastName);
+					$("#player"+playerNumber).append(htmlIdNumber);
+					$("#player"+playerNumber).append(htmlBirthday);
+					$("#player"+playerNumber).append(htmlNick);
+					$("#player"+playerNumber).append(htmlSteam);
+					$("#player"+playerNumber).append(htmlDotabuff);
+					$("#player"+playerNumber).append(htmlPicture);
+					$("#player"+playerNumber).append(htmlCaptain);
+					$("#player"+playerNumber).append(htmlCountry);
+					$("#player"+playerNumber).append(htmlRelativeLocation);
+					$("#player"+playerNumber).append(htmlRole);
+				}
 			var icons = {
 		      header: "ui-icon-circle-arrow-e",
 		      activeHeader: "ui-icon-circle-arrow-s"
@@ -437,7 +159,6 @@
 		    	}
 			  
 			});
-			
 		    $(".tagEditor").on('input',function(e){
 		      var playerNumber =$(this).parent().find("#playerNumber").val();
 			  $("#"+playerNumber).html($(this).parent().find("#name").val() + " " + $(this).parent().find("#lastName").val())
@@ -470,10 +191,9 @@
 				//validations
 				var validator = false;
 				$(".mustComplete").each(function(){
-					if($(this).val == UNDEFINED || $(this).val == ""){
+					if($(this).val() == undefined || $(this).val() == "" || $(this).val() == "DEFAULT"){
 						$(this).addClass("error");
 						validator = true;
-						return false;
 					}else{
 						$(this).removeClass("error");
 					}
