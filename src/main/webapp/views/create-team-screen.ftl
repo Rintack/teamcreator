@@ -44,7 +44,7 @@
     		<div class="col-sm-4 text-center form-col">
 				<form id="teamForm">
 					<label for="teamName">Team Name:</label>
-					<input type="text" id="teamName" name="teamName" value=""><br>
+					<input class="mustComplete" type="text" id="teamName" name="teamName" value=""><br>
 					<label for="teamName">TAG:</label>
 					<input type="text" id="tag" name="tag" value=""><br>
 					<label for="teamName">Mail:</label>
@@ -68,6 +68,10 @@
 								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
 								<label for='lastName'>Last Name:</label>
 								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
+								<label for='idNumber'>Documento:</label>
+								<input type='text' id='idNumber' name='idNumber' value=''><br>
+								<label for='birthday'>Cumpleaños:</label>
+								<input class='birthday' type="text" id="birthday"><br>
 								<label for='nick'>Nick:</label>
 								<input type='text' id='nick' name='nick' value=''><br>
 								<label for='steam'>Steam:</label>
@@ -113,6 +117,10 @@
 								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
 								<label for='lastName'>Last Name:</label>
 								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
+								<label for='idNumber'>Documento:</label>
+								<input type='text' id='idNumber' name='idNumber' value=''><br>
+								<label for='birthday'>Cumpleaños:</label>
+								<input class='birthday' type="text" id="birthday"><br>								
 								<label for='nick'>Nick:</label>
 								<input type='text' id='nick' name='nick' value=''><br>
 								<label for='steam'>Steam:</label>
@@ -158,6 +166,10 @@
 								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
 								<label for='lastName'>Last Name:</label>
 								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
+								<label for='idNumber'>Documento:</label>
+								<input type='text' id='idNumber' name='idNumber' value=''><br>	
+								<label for='birthday'>Cumpleaños:</label>
+								<input class='birthday' type="text" id="birthday"><br>													
 								<label for='nick'>Nick:</label>
 								<input type='text' id='nick' name='nick' value=''><br>
 								<label for='steam'>Steam:</label>
@@ -203,6 +215,10 @@
 								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
 								<label for='lastName'>Last Name:</label>
 								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
+								<label for='idNumber'>Documento:</label>
+								<input type='text' id='idNumber' name='idNumber' value=''><br>	
+								<label for='birthday'>Cumpleaños:</label>
+								<input class='birthday' type="text" id="birthday"><br>														
 								<label for='nick'>Nick:</label>
 								<input type='text' id='nick' name='nick' value=''><br>
 								<label for='steam'>Steam:</label>
@@ -248,6 +264,10 @@
 								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
 								<label for='lastName'>Last Name:</label>
 								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
+								<label for='idNumber'>Documento:</label>
+								<input type='text' id='idNumber' name='idNumber' value=''><br>
+								<label for='birthday'>Cumpleaños:</label>
+								<input class='birthday' type="text" id="birthday"><br>						
 								<label for='nick'>Nick:</label>
 								<input type='text' id='nick' name='nick' value=''><br>
 								<label for='steam'>Steam:</label>
@@ -293,6 +313,10 @@
 								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
 								<label for='lastName'>Last Name:</label>
 								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
+								<label for='idNumber'>Documento:</label>
+								<input type='text' id='idNumber' name='idNumber' value=''><br>								
+								<label for='birthday'>Cumpleaños:</label>
+								<input class='birthday' type="text" id="birthday"><br>						
 								<label for='nick'>Nick:</label>
 								<input type='text' id='nick' name='nick' value=''><br>
 								<label for='steam'>Steam:</label>
@@ -338,6 +362,10 @@
 								<input class="tagEditor" type='text' id ='name' name='name' value=''><br>
 								<label for='lastName'>Last Name:</label>
 								<input class="tagEditor" type='text' id='lastName' name='lastName' value=''><br>
+								<label for='idNumber'>Documento:</label>
+								<input type='text' id='idNumber' name='idNumber' value=''><br>
+								<label for='birthday'>Cumpleaños:</label>
+								<input class='birthday' type="text" id="birthday"><br>						
 								<label for='nick'>Nick:</label>
 								<input type='text' id='nick' name='nick' value=''><br>
 								<label for='steam'>Steam:</label>
@@ -422,8 +450,39 @@
 			function showLocation(e){
 				e.find("#relativeLocation").show()
 			}
+			
+			$(function() {
+				$(".birthday").each(function() {
+					$(this).datepicker({
+					    changeMonth: true,
+					    changeYear: true,
+					    buttonImage: "http://jqueryui.com/resources/demos/datepicker/images/calendar.gif",
+					    showOn: "button",
+	      				buttonImageOnly: true,
+	      				yearRange: "-100:+0",
+	      				dateFormat: "dd/mm/yy"
+				  	});
+				});
+			});
 			$("#teamForm").submit(function(e){
 				e.preventDefault(); 
+				
+				//validations
+				var validator = false;
+				$(".mustComplete").each(function(){
+					if($(this).val == UNDEFINED || $(this).val == ""){
+						$(this).addClass("error");
+						validator = true;
+						return false;
+					}else{
+						$(this).removeClass("error");
+					}
+				});
+				
+				if(validator){
+					return false;
+				}
+				
 				var team = new Object();
 				team.name = $("#teamName").val();
 				team.tag = $("#tag").val();
@@ -434,20 +493,27 @@
 				team.imageUrl = $("#logoUrl").val();
 				var players = [];
 				$(".player").each(function() {
-				  var player = new Object();
-				  player.name = $(this).find("#name").val();
-				  player.lastName = $(this).find("#lastName").val();
-				  player.nick = $(this).find("#nick").val();
-				  player.role = $(this).find("#role").val();
-				  player.isCaptain = $(this).find("#isCaptain").val();
-				  player.steam = $(this).find("#steam").val();
-				  player.dotabuff = $(this).find("#dotabuff").val();
-				  player.country = $(this).find("#country").val();
-				  player.state = $(this).find("#state").val();
-				  player.city = $(this).find("#city").val();
-				  player.neighbourhood = $(this).find("#neighbourhood").val();
-				  player.pictureUrl = $(this).find("#pictureUrl").val();
-				  players.push(player);
+				  if($(this).find("#name").val() != ""){
+				  	  var heroes = [];
+					  var player = new Object();
+					  player.name = $(this).find("#name").val();
+					  player.lastName = $(this).find("#lastName").val();
+					  player.nick = $(this).find("#nick").val();
+					  player.role = $(this).find("#role").val();
+					  player.captain = $(this).find("#isCaptain").is(":checked");
+					  player.steam = $(this).find("#steam").val();
+					  player.dotabuff = $(this).find("#dotabuff").val();
+					  player.idNumber = $(this).find("#idNumber").val();
+					  player.birthday = $(this).find("#birthday").val();
+					  player.country = $(this).find("#country").val();
+					  if(player.country != "OTHER"){
+						  player.state = $(this).find("#state").val();
+						  player.city = $(this).find("#city").val();
+						  player.neighbourhood = $(this).find("#neighbourhood").val();
+					  }
+					  player.pictureUrl = $(this).find("#pictureUrl").val();
+					  players.push(player);
+					}
 				});
 				team.players = players;
 				

@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.Calendar;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 
@@ -25,6 +27,8 @@ public class TeamService {
 				throw ex;
 			}
 		}
+		Date creationDate = Calendar.getInstance().getTime();
+		team.setCreationDate(creationDate);
 		YamlWriter writer = new YamlWriter(new FileWriter(filePath));
 		writer.write(team);
 		writer.getConfig().setClassTag("Team", Team.class);

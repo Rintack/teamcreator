@@ -1,15 +1,17 @@
 package com.giantrocket.team.data.model;
 
-import java.util.List;
+
 
 public class Player {
 	
 	private String name;
 	private String lastName;
 	private String nick;
+	private String birthday;
+	private String idNumber;
 	private Role role;
-	private boolean isCaptain;
-	private List<Hero> favouriteHeroes;
+	private boolean captain;
+//	private List<Hero> favouriteHeroes;
 	private String steam;
 	private String dotabuff;
 	private Country country;
@@ -42,18 +44,12 @@ public class Player {
 	public void setRole(Role role) {
 		this.role = role;
 	}
-	public boolean isCaptain() {
-		return isCaptain;
-	}
-	public void setCaptain(boolean isCaptain) {
-		this.isCaptain = isCaptain;
-	}
-	public List<Hero> getFavouriteHeroes() {
-		return favouriteHeroes;
-	}
-	public void setFavouriteHeroes(List<Hero> favouriteHeroes) {
-		this.favouriteHeroes = favouriteHeroes;
-	}
+//	public List<Hero> getFavouriteHeroes() {
+//		return favouriteHeroes;
+//	}
+//	public void setFavouriteHeroes(List<Hero> favouriteHeroes) {
+//		this.favouriteHeroes = favouriteHeroes;
+//	}
 	public String getSteam() {
 		return steam;
 	}
@@ -95,6 +91,24 @@ public class Player {
 	}
 	public void setPictureUrl(String pictureUrl) {
 		this.pictureUrl = pictureUrl;
+	}
+	public boolean isCaptain() {
+		return captain;
+	}
+	public void setCaptain(boolean captain) {
+		this.captain = captain;
+	}
+	public String getIdNumber() {
+		return idNumber;
+	}
+	public void setIdNumber(String idNumber) {
+		this.idNumber = idNumber;
+	}
+	public String getBirthday() {
+		return birthday;
+	}
+	public void setBirthday(String birthday) {
+		this.birthday = birthday;
 	}
 	
 }
