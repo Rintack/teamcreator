@@ -104,9 +104,7 @@
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="assets/js/headroom.min.js"></script>
-	<script src="assets/js/jQuery.headroom.min.js"></script>
-	<script src="assets/js/template.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/hero.css" />
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
   	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
   	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
@@ -124,7 +122,7 @@
 					var htmlSteam = "<label for='steam'>Steam:</label> <input class='mustComplete' type='text' id='steam' name='steam' value=''><br>";
 					var htmlDotabuff = "<label for='dotabuff'>Dotabuff:</label> <input type='text' id='dotabuff' name='dotabuff' value=''><br>";
 					var htmlPicture = "<label for='pictureUrl'>Picture URL:</label> <input class='mustComplete' type='text' id='pictureUrl' name='pictureUrl' value=''><br>";
-					var htmlCaptain = "<label for='isCaptain'>Capitan:</label> <input type='checkbox' id='isCaptain' name='isCaptain' value='Capitan'><br>";
+					var htmlCaptain = "<label for='isCaptain'>Capitan:</label> <input type='checkbox' class='isCaptain' id='isCaptain' name='isCaptain' value='"+playerNumber+"'><br>";
 					var htmlCountry = "<label for='country'>Country:</label> <select class='country' id='country' name='country'> <#list countries as country> <option value='${country}'>${country.description}</option> </#list> </select> <br>";
 					var htmlRelativeLocation = "<div id='relativeLocation'> <label for='state'>Provincia:</label> <select id='state' name='state'> <#list states as state> <option value='${state}'>${state.description}</option> </#list> </select> <br> <label for='city'>Ciudad:</label> <input type='text' id='city' name='city' value=''><br> <label for='neighbourhood'>Barrio:</label> <input type='text' id='neighbourhood' name='neighbourhood' value=''><br> </div>";
 					var htmlRole = "<label for='roles'>Rol:</label> <select class='mustComplete' id='role' name='role'> <option  value='DEFAULT'>Elije un rol</option> <#list roles as enum> <option value='${enum}'>${enum.description}</option> </#list> </select> <br>";
@@ -142,6 +140,20 @@
 					$("#player"+playerNumber).append(htmlRelativeLocation);
 					$("#player"+playerNumber).append(htmlRole);
 				}
+			$(".isCaptain").change(function(){
+				var isCaptain = $(this).is(":checked");
+				if(isCaptain){
+					var captainNumber = $(this).val();
+					$(".isCaptain").each(function(){
+						if($(this).val() != captainNumber){
+							if($(this).is(":checked")){
+								alert("Ya habias marcado un capitan, se actualizo por el que acabas de seleccionar")
+								$(this).attr('checked', false)
+							}
+						}
+					});
+				}
+			});
 			var icons = {
 		      header: "ui-icon-circle-arrow-e",
 		      activeHeader: "ui-icon-circle-arrow-s"
