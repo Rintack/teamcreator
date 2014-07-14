@@ -1,0 +1,94 @@
+!Team
+name: Refugiad Cats
+facebook: https://www.facebook.com/giantrocket
+imageUrl: http://i.imgur.com/2HTb1eZ.jpg
+mail: cibelli.mariano@gmail.com
+players: 
+- !Player
+   name: Mariano
+   captain: true
+   city: CABA
+   country: ARGENTINA
+   dotabuff: dotabuffrintack.com
+   lastName: Cibelli
+   neighbourhood: Villa Urquiza
+   nick: Rintack
+   pictureUrl: picturerintack.com
+   role: CARRY
+   state: BUENOS_AIRES
+   steam: steamurlrintack.com
+- !Player
+   name: Federico
+   city: CABA
+   country: ARGENTINA
+   dotabuff: dotabuffdipri.com
+   lastName: Dipri
+   neighbourhood: Caballito
+   nick: Dipri
+   pictureUrl: picturedipri.com
+   role: SUPPORT
+   state: BUENOS_AIRES
+   steam: steamdipri.com
+- !Player
+   name: Victoria
+   city: CABA
+   country: ARGENTINA
+   dotabuff: lumaydotabuff.com
+   lastName: Vitale
+   neighbourhood: Caballito
+   nick: Lumay
+   pictureUrl: lumaypicture.com
+   role: SUPPORT
+   state: BUENOS_AIRES
+   steam: lumaysteam.com
+- !Player
+   name: Sergio
+   city: CABA
+   country: ARGENTINA
+   dotabuff: chechodotabuff.com
+   lastName: Fruto
+   neighbourhood: Flores
+   nick: Checho
+   pictureUrl: chechopicture.com
+   role: MID
+   state: BUENOS_AIRES
+   steam: chechosteam.com
+- !Player
+   name: Ignacio
+   city: CABA
+   country: ARGENTINA
+   dotabuff: nachdotabuff.com
+   lastName: Audi
+   neighbourhood: Lugano
+   nick: Nach
+   pictureUrl: nachpicture.com
+   role: OFFLANE
+   state: BUENOS_AIRES
+   steam: nachsteam.com
+- !Player
+   name: Marcos
+   city: Tierra Media
+   country: ARGENTINA
+   dotabuff: niggahdotabuff.com
+   lastName: Reves
+   neighbourhood: Mordor
+   nick: Niggah
+   pictureUrl: niggahpicture.com
+   role: SUPPORT
+   state: BUENOS_AIRES
+   steam: niggahsteam.com
+- !Player
+   name: Celeste
+   city: CABA
+   country: ARGENTINA
+   dotabuff: celesdotabuff.com
+   lastName: Girasole
+   neighbourhood: Centro
+   nick: Celes
+   pictureUrl: celespicture.com
+   role: SUPPORT
+   state: BUENOS_AIRES
+   steam: celessteam.com
+tag: RC
+twitter: '@giantrocket'
+web: www.giantrocket.com.ar
