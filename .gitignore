@@ -14,3 +14,5 @@ dist
 /RUNNING_PID
 /.settings
 /.target
+/example
+/example.log.1

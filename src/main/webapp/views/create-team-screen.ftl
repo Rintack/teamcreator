@@ -3,11 +3,11 @@
 	<head>
 	    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" media="screen" rel="stylesheet" />
-	    <link href="../css/bootstrap.min.css" rel="stylesheet" />
-	    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+	    <link href="css/bootstrap.min.css" rel="stylesheet" />
+	    <link href="css/font-awesome.min.css" rel="stylesheet" />
 	    <!-- Custom styles for our template -->
-	    <link href="../css/bootstrap-theme.css" media="screen" rel="stylesheet" />
-	    <link href="../css/main.css" rel="stylesheet" />
+	    <link href="css/bootstrap-theme.css" media="screen" rel="stylesheet" />
+	    <link href="css/main.css" rel="stylesheet" />
 	</head>
 	<body class="home">
 		<div class="navbar navbar-inverse navbar-fixed-top headroom">
@@ -104,7 +104,7 @@
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/hero.css" />
+	<link rel="stylesheet" type="text/css" href="css/hero.css" />
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
   	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
   	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
