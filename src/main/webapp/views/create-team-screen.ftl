@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html>
 	<head>
+		<meta charset="UTF-8" />
 	    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" media="screen" rel="stylesheet" />
 	    <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -39,7 +40,7 @@
 	            </div>
 	        </div>
     	</header>
-    	<h1 class="text-center">Sistema de Inscripci�n de Equipos</h1>
+    	<h1 class="text-center">Sistema de Inscripción de Equipos</h1>
     	<div class="row">
     		<div class="col-sm-4 text-center form-col">
 				<form id="teamForm">
@@ -117,7 +118,7 @@
 					var htmlName = "<label for='name'>Name:</label> <input class='tagEditor mustComplete' type='text' id ='name' name='name' value=''><br>";
 					var htmlLastName = "<label for='lastName'>Last Name:</label> <input class='tagEditor mustComplete' type='text' id='lastName' name='lastName' value=''><br>";
 					var htmlIdNumber = "<label for='idNumber'>Documento:</label> <input type='text' class='mustComplete' id='idNumber' name='idNumber' value=''><br>";
-					var htmlBirthday = "<label for='birthday'>Cumplea�os:</label> <input class='birthday mustComplete' type='text' id='birthday'><br>";
+					var htmlBirthday = "<label for='birthday'>Cumpleaños:</label> <input class='birthday mustComplete' type='text' id='birthday'"+playerNumber+"><br>";
 					var htmlNick = "<label for='nick'>Nick:</label> <input class='mustComplete' type='text' id='nick' name='nick' value=''><br>";
 					var htmlSteam = "<label for='steam'>Steam:</label> <input class='mustComplete' type='text' id='steam' name='steam' value=''><br>";
 					var htmlDotabuff = "<label for='dotabuff'>Dotabuff:</label> <input type='text' id='dotabuff' name='dotabuff' value=''><br>";
@@ -236,7 +237,7 @@
 					  player.steam = $(this).find("#steam").val();
 					  player.dotabuff = $(this).find("#dotabuff").val();
 					  player.idNumber = $(this).find("#idNumber").val();
-					  player.birthday = $(this).find("#birthday").val();
+					  player.birthday = $(this).find(".birthday").val();
 					  player.country = $(this).find("#country").val();
 					  if(player.country != "OTHER"){
 						  player.state = $(this).find("#state").val();

@@ -39,7 +39,7 @@
 	            </div>
 	        </div>
     	</header>
-    	<h1 class="text-center">Sistema de Inscripción de Equipos</h1>
+    	<h1 class="text-center">Sistema de InscripciÃ³n de Equipos</h1>
     	<div class="row">
     		<div class="col-sm-4 text-center form-col">
     			<label>${message}</label>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
+<meta charset="UTF-8" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <meta content="" name="description" />
@@ -92,9 +93,9 @@
 
 	<div class="jumbotron top-space">
 		<div class="container">
-			<h3 class="text-center thin">�TU EQUIPO YA EST� ENTRENANDO PARA DESAFIAR AL CAMPE�N?</h3>
-			<p class="new-copy">Pr�ximamente estaremos anunciando los detalles de la segunda edici�n del Torneo Giant Rocket. Volvemos con mas equipos, mas partidas, mas premios y muchas novedades mas. Estate atento a nuestro grupo de Facebook, donde estaremos anunciando los detalles del segundo torneo.
-			�Empez� a entrenar!</p>
+			<h3 class="text-center thin">¿TU EQUIPO YA ESTÁ ENTRENANDO PARA DESAFIAR AL CAMPEÓN?</h3>
+			<p class="new-copy">Próximamente estaremos anunciando los detalles de la segunda edición del Torneo Giant Rocket. Volvemos con mas equipos, mas partidas, mas premios y muchas novedades mas. Estate atento a nuestro grupo de Facebook, donde estaremos anunciando los detalles del segundo torneo.
+			¡Empezá a entrenar!</p>
 			<div class="row">
 			</div>
 			<!-- /row -->
