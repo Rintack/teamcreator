@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 	<head>
 	    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
@@ -39,7 +39,7 @@
 	            </div>
 	        </div>
     	</header>
-    	<h1 class="text-center">Sistema de Inscripción de Equipos</h1>
+    	<h1 class="text-center">Sistema de Inscripciï¿½n de Equipos</h1>
     	<div class="row">
     		<div class="col-sm-4 text-center form-col">
 				<form id="teamForm">
@@ -117,7 +117,7 @@
 					var htmlName = "<label for='name'>Name:</label> <input class='tagEditor mustComplete' type='text' id ='name' name='name' value=''><br>";
 					var htmlLastName = "<label for='lastName'>Last Name:</label> <input class='tagEditor mustComplete' type='text' id='lastName' name='lastName' value=''><br>";
 					var htmlIdNumber = "<label for='idNumber'>Documento:</label> <input type='text' class='mustComplete' id='idNumber' name='idNumber' value=''><br>";
-					var htmlBirthday = "<label for='birthday'>Cumpleaños:</label> <input class='birthday mustComplete' type='text' id='birthday'><br>";
+					var htmlBirthday = "<label for='birthday'>Cumpleaï¿½os:</label> <input class='birthday mustComplete' type='text' id='birthday'><br>";
 					var htmlNick = "<label for='nick'>Nick:</label> <input class='mustComplete' type='text' id='nick' name='nick' value=''><br>";
 					var htmlSteam = "<label for='steam'>Steam:</label> <input class='mustComplete' type='text' id='steam' name='steam' value=''><br>";
 					var htmlDotabuff = "<label for='dotabuff'>Dotabuff:</label> <input type='text' id='dotabuff' name='dotabuff' value=''><br>";
